@@ -12,6 +12,9 @@
    
 
 }
+.text-color{
+    color: blue;
+}
 
 #logo{
     width: 150px;
@@ -191,6 +194,15 @@ div.box{
     background-color: black;
     color: aliceblue;
     font-family:'Montserrat', sans-serif;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 300px;
+}
+
+.form-control{
+    width:50px;
 }
 /*inicio de sesión*/
 

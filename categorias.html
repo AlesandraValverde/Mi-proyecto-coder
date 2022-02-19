@@ -4,287 +4,577 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>categorias</title>
+    <title>Caja de lectura</title>
     <link rel="stylesheet" href="Estilo.css">
     <link rel="shortcut icon" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2? family= Montserrat & display=swap" rel="stylesheet">
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <style>
+        .container-fluid-1{
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .container-fluid{
+            background-color: rgb(22, 39, 77);
+            
+            
+        }
+        .row-1{
+            background-color: rgb(22, 39, 77);
+        }
+        .row-2{
+            background-color: rgb(22, 39, 77);
+        }
+        .nav-link{
+            color: rgb(255, 255, 255);
+        }
+        .container-fluid-5{
+            background-color: rgba(252, 164, 4, 1);
+        }
+        .text-color{
+            color: rgb(22, 39, 77);
+        }
+    </style>
 </head>
-<body id="body3">
-    
-        <header class="border">
-            <a id="logo"href=""> <p>Caja de Lectura</p></a>
-            <nav id="header_navbar">
-                <ul class="ul1">
-                    <li class="li1"><a class="a" href="index.html">Inicio</a></li>
-                    <li class="li1"><a class="a" href="Nosotros.html">Nosotros</a></li>
-                    <li class="li1"><a class="a" href="Tiendas.html">Tiendas</a></li>
-                    <li class="li1"><a class="a" href="">Categorias</a>
-                    <ul class="ul2">
-                        <li class="li2"><a class="a" href="">Infantil</a></li>
-                        <li class="li2"><a class="a" href="">Juvenil</a></li>
-                        <li class="li2"><a class="a" href="">Arte</a></li>
-                        <li class="li2"><a class="a" href="">Ciencia ficción</li>
-                        <li class="li2"><a class="a" href="">No ficción</li>
-                        <li class="li2"><a class="a" href="">Humanidades</li>
-                        <li class="li2"><a class="a" href="">Comics</li>   
-                        <li class="li2"><a class="a" href="">Mangas</a></li>
+<body>
+<header>
+    <!-- nav1 -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+            
+                <ul class="nav justify-content-end p-3">
+                <li class="nav-item">
+                <a class="nav-link " href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="categorias.html">Categorias</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="Contacto.html">Contactos</a>
+                </li>
                 </ul>
+            </div>
+        </div>
 
-                           
-                    <li class="li1"><a class="a" href="Iniciarsesion.html">Iniciar Sesión</a></li>
-                    <li class="li1"><a class="a" href="Contacto.html">Contacto</a></li>
-                    <li class="li1"><a class="a" href="">Carrito de compras</a></li>
-                
-            </nav>
-        </header>
-    
-
-    
-
-    <nav id="nav2" >
-        <ul class="padre">
-            <li ><a class="padre__hijo1--text" href="">Infantil</a></li>
-            <li ><a class="padre__hijo1--text" href="">Juvenil</a></li>
-            <li ><a class="padre__hijo1--text" href="">Arte</a></li>
-            <li ><a class="padre__hijo1--text" href="">Ciencia</a></li>
-            <li ><a class="padre__hijo1--text" href="">Humanidades</a></li>
-            <li ><a class="padre__hijo1--text" href="">Ficción</a></li>
-            <li ><a class="padre__hijo1--text" href="">No ficción</a></li>
-            <li ><a class="padre__hijo1--text"href="">Novelas</a></li>
-            <li ><a class="padre__hijo1--text" href="">Más</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <h2 >Infantil</h2>  
-        <section>
-            <div class="card">
-                <img class="card__image"src="Principitobook.png" alt="Principitobook"width="180" height="270"/>
-                <h3 class="card__title">El principito</h3>
-                <p class="card__description">S/. 50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-light justify-content-center ">
+                <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" width="30" height="30" alt="">
+                </a>
+                </nav>
             </div>
-
-            <div class="card">
-                <img src="El diario de greg.png" alt="El diario de Greg"width="180" height="270"/>
-                <h3 class="card__title">El diario de Greg</h3>
-                <p>S/.70.00</p>
-                <button class="card__button card__button--linear card__button--text ">Añadir al carrito</button>
-            </div>
-        
-            <div class="card">
-                <img src="En busca.png" alt="En busca"width="180" height="270"/>
-                <h3 class="card__title">En Busca</h3>
-                <p>S/.40.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button> 
-            </div> 
-
-            <div class="card">
-                <img src="Los compas.png" alt="Los compas"width="180" height="270"/>
-                <h3 class="card__title">Los compas</h3>
-                <p>S/.60.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Unidos.png" alt="Unidos"width="180" height="270"/></li>
-                <h3 class="card__title">Unidos</h3>
-                <p>S/.50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Moustro.png" alt="moustro"width="180" height="270"/></li>
-                <h3 class="card__title">Monstruo</h3>
-                <p>S/.80.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Ana la de.png" alt="Ana la de"width="180" height="270"/></li>
-                <h3 class="card__title">Ana la de</h3>
-                <p>S/.50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Animales peruanos.png" alt="Animales peruanos"width="180" height="270"/></li>
-                <h3 class="card__title">Animales peruanos</h3>
-                <p>S/.100.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>  
-
-        </section>
-        <h2 >Juvenil</h2>  
-        <section>
-            <div class="card">
-                <img class="card__image"src="Principitobook.png" alt="Principitobook"width="180" height="270"/>
-                <h3 class="card__title">El principito</h3>
-                <p class="card__description">S/. 50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-
-            <div class="card">
-                <img src="El diario de greg.png" alt="El diario de Greg"width="180" height="270"/>
-                <h3 class="card__title">El diario de Greg</h3>
-                <p>S/.70.00</p>
-                <button class="card__button card__button--linear card__button--text ">Añadir al carrito</button>
-            </div>
-        
-            <div class="card">
-                <img src="En busca.png" alt="En busca"width="180" height="270"/>
-                <h3 class="card__title">En Busca</h3>
-                <p>S/.40.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button> 
-            </div> 
-
-            <div class="card">
-                <img src="Los compas.png" alt="Los compas"width="180" height="270"/>
-                <h3 class="card__title">Los compas</h3>
-                <p>S/.60.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Unidos.png" alt="Unidos"width="180" height="270"/></li>
-                <h3 class="card__title">Unidos</h3>
-                <p>S/.50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Moustro.png" alt="moustro"width="180" height="270"/></li>
-                <h3 class="card__title">Monstruo</h3>
-                <p>S/.80.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Ana la de.png" alt="Ana la de"width="180" height="270"/></li>
-                <h3 class="card__title">Ana la de</h3>
-                <p>S/.50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Animales peruanos.png" alt="Animales peruanos"width="180" height="270"/></li>
-                <h3 class="card__title">Animales peruanos</h3>
-                <p>S/.100.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>  
-            <h2 >Arte</h2>  
-        <section>
-            <div class="card">
-                <img class="card__image"src="Principitobook.png" alt="Principitobook"width="180" height="270"/>
-                <h3 class="card__title">El principito</h3>
-                <p class="card__description">S/. 50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-
-            <div class="card">
-                <img src="El diario de greg.png" alt="El diario de Greg"width="180" height="270"/>
-                <h3 class="card__title">El diario de Greg</h3>
-                <p>S/.70.00</p>
-                <button class="card__button card__button--linear card__button--text ">Añadir al carrito</button>
-            </div>
-        
-            <div class="card">
-                <img src="En busca.png" alt="En busca"width="180" height="270"/>
-                <h3 class="card__title">En Busca</h3>
-                <p>S/.40.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button> 
-            </div> 
-
-            <div class="card">
-                <img src="Los compas.png" alt="Los compas"width="180" height="270"/>
-                <h3 class="card__title">Los compas</h3>
-                <p>S/.60.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Unidos.png" alt="Unidos"width="180" height="270"/></li>
-                <h3 class="card__title">Unidos</h3>
-                <p>S/.50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Moustro.png" alt="moustro"width="180" height="270"/></li>
-                <h3 class="card__title">Monstruo</h3>
-                <p>S/.80.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Ana la de.png" alt="Ana la de"width="180" height="270"/></li>
-                <h3 class="card__title">Ana la de</h3>
-                <p>S/.50.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div>
-                
-            <div class="card">
-                <img src="Animales peruanos.png" alt="Animales peruanos"width="180" height="270"/></li>
-                <h3 class="card__title">Animales peruanos</h3>
-                <p>S/.100.00</p>
-                <button class="card__button card__button--linear card__button--text">Añadir al carrito</button>
-            </div> 
-        </section>
-    </main>
-        
-        <footer class="border">
             
-                <h4>Todos los derechos reservados</h4>
-            
-            
-            <nav >
+            <div class="col-md-8">
+                <form class="d-flex ">
+                <input class="form-control me-2  " type="search" placeholder="Search" aria-label="search">
+                <button class="btn btn-outline-secondary" type="submit">buscar</button>
+                </form>
+            </div>
+
+            <div class="col-md-3 ">
                 
-                    <ul id="footerlogos">
-                    <li><a class="footerlogos__enlance"href="https://www.bnp.gob.pe/" target="_blank">
-                        <img src="logobnp.png" alt="">
-                        </a>
-                    </li>
-    
-                    <li><a class="footerlogos__enlance" href="https://infolibros.cpl.org.pe/" target="_blank">
-                        <img src="logocamara.png" alt="">
-                        </a>
-                    </li>
-    
-                    <li ><a class="footerlogos__enlance" href="https://cerlalc.org/" target="_blank">
-                        <img src="logocerlac.png" alt="">
-                        </a>
-                    </li>
-                   
-                    </ul>
-                
-            </nav>   
-            <nav >
-                
-                <ul id="footernav" >
-                    <li class="footernav__orden"><a class="footernav__title" href="index.html">Inicio</a></li>
-                    <li class="footernav__orden"><a class="footernav__title"href="Nosotros.html">Nosotros</a></li>
-                    <li class="footernav__orden"><a class="footernav__title"href="Tiendas.html">Tiendas</a></li>
-                    <li class="footernav__orden"><a class="footernav__title"href="Iniciarsesion.html">Iniciar Sesión</a></li>
-                    <li class="footernav__orden"><a class="footernav__title"href="Contacto.html">Contacto</a></li>
-                    <li class="footernav__orden"><a class="footernav__title"href="">Carrito de compras</a></li>
-    
+                <ul class="nav justify-content-center ">
+                <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Tiendas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agregar al carrito</a>
+                </li>
                 </ul>
-                
-            </nav>
-        </footer>   
-    </body>
-    </html>
+                </div>
+        </div>  
+    
+</header>
+
+    <div class="container-fluid bg-light">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Recurso 1.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Recurso 2.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Recurso 3.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+        </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
    
 
+   <!--  menu de categorias -->
+  
+    <div class="container-fluid-5 ">
+        <ul class="nav justify-content-center">
+         <li class="nav-item ">
+           <a class="nav-link active" href="#">Infantil</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Juvenil</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Ficción</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link " href="#">No ficción</a>
+         </li>
+         <li class="nav-item">
+             <a class="nav-link active" href="#">Plan lector</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Más</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Pre-venta</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link " href="#">Ofertas</a>
+           </li>
+           
+       </ul>
+         </div>
 
-
-
-
-
-
-
-
-
-
-
+         <div class="container-fluid-6">
+            <nav aria-label="breadcrumb ">
+               <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+               <li class="breadcrumb-item active" aria-current="page">Categorias</li>
+               </ol>
+             </nav>
+           </div>
+       <!--  fin de menu de categorias -->
+       <div class="container">
+             
+             <h4 class="text-center text-primary mt-5">Infantil</h4>
+             
+         <div class="row">
+             <div class="col-md-3 ">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Principitobook.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">El principito</h5>
+                         <p class="card-text">S/. 50</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+     
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Ana la de.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Ana la de</h5>
+                         <p class="card-text">S/.40</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+     
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Animales peruanos.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Animales peruanos</h5>
+                         <p class="card-text">S/. 30</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Cuentos de buenas noches.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Cuentos de buenas noches</h5>
+                         <p class="card-text">S/ 50</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="El diario de greg.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">El diario de Greg</h5>
+                         <p class="card-text">S/. 60</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="En busca.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">En busca de la felicidad</h5>
+                         <p class="card-text">S/.55</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="En busca.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">En busca de la felicidad</h5>
+                         <p class="card-text">S/.55</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="En busca.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">En busca de la felicidad</h5>
+                         <p class="card-text">S/.55</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div>
+             <h4 class="text-center text-primary mt-5">Juvenil</h4>
+         </div>
+         <div class="row">
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Los compas.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Los compas</h5>
+                         <p class="card-text">S/.45</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+     
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Moustro.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Monstruo triste, Monstruo feliz</h5>
+                         <p class="card-text">S/.60.</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+     
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Los 7 habitos.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Los siete habitos que la gente</h5>
+                         <p class="card-text">S/.35</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Love you.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Love you/h5>
+                         <p class="card-text">S/. 50</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="La bailarina.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">la bailarina</h5>
+                         <p class="card-text">S/.45</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Unidos.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Unidos</h5>
+                         <p class="card-text">S/60</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Unidos.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Unidos</h5>
+                         <p class="card-text">S/60</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="card" style="width: 13rem;">
+                     <img class="card-img-top" src="Unidos.png" alt="Card image cap">
+                     <div class="card-body">
+                         <h5 class="card-title">Unidos</h5>
+                         <p class="card-text">S/60</p>
+                         <a href="#" class="btn btn-primary">Comprar</a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     
+         
+           </div> 
+     
+     
+     
+     <section class="container-fluid section mt-2 mb-2">
+     
+         <div class="row h-100">
+             <div class="col-6 div-der text-light">
+                 
+                 <h2 class="mt-2 mb-5">Blog</h2>
+                 <p class="mb-5">Suscríbete al blog por correo electrónico</p>
+                
+     
+               
+                 <div class="col-3">
+                     
+                 <label for="inputPassword2" class="sr-only"></label>
+                 <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                 </div>
+                 <div class="col-3">
+                 <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                 </div>
+     
+                 
+                 
+                 <button class="btn btn-outline-secondary mt-8" type="submit">Mas Info</button>
+                 
+             </div>
+     
+             <div class="bg-dark text-light col-6 div-izq">
+                 <h2 class="mt-2 mb-5">Noticias</h2>
+                 <p class="mb-5"> La Biblioteca Nacional brindará 5 cursos sobre Gestión de las colecciones. No te pierdas esta oportunidad porque se entregará certificado de asisetencia. </p>
+                 <button class="btn btn-outline-secondary mb-4" type="submit">Mas Info</button>
+             </div>
+         </div>
+         <!--   otra manera de hacerlo 
+         <div class="container-fluid h-100 d-flex">
+             <div class="div-der w-50">
+               
+             </div>
+             <div class="div-izq w-50 bg-dark text-light p-4">
+                  <h2 class="mt-2 mb-5">Contenido</h2>
+                  <p class="mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, accusantium cupiditate tempore deleniti quia quae placeat id inventore dicta sint omnis pariatur quas deserunt! Fuga sed corporis natus delectus. </p>
+                  <button class="btn btn-outline-secondary mt-5" type="submit">Mas Info</button>
+             </div>
+     
+         </div>
+     
+        -->
+     </section>
+     <!-- Footer -->
+     <footer class="text-center text-lg-start bg-light text-muted">
+         <!-- Section: Social media -->
+         <section
+           class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+         >
+           <!-- Left -->
+           <div class="me-5 d-none d-lg-block">
+             <span>Get connected with us on social networks:</span>
+           </div>
+           <!-- Left -->
+       
+           <!-- Right -->
+           <div>
+             <a href="" class="me-4 text-reset">
+               <i class="fab fa-facebook-f"></i>
+             </a>
+             <a href="" class="me-4 text-reset">
+               <i class="fab fa-twitter"></i>
+             </a>
+             <a href="" class="me-4 text-reset">
+               <i class="fab fa-google"></i>
+             </a>
+             <a href="" class="me-4 text-reset">
+               <i class="fab fa-instagram"></i>
+             </a>
+             <a href="" class="me-4 text-reset">
+               <i class="fab fa-linkedin"></i>
+             </a>
+             <a href="" class="me-4 text-reset">
+               <i class="fab fa-github"></i>
+             </a>
+           </div>
+           <!-- Right -->
+         </section>
+         <!-- Section: Social media -->
+       
+         <!-- Section: Links  -->
+         <section class="">
+           <div class="container text-center text-md-start mt-5">
+             <!-- Grid row -->
+             <div class="row mt-3">
+               <!-- Grid column -->
+               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                 <!-- Content -->
+                 <h6 class="text-uppercase fw-bold mb-4">
+                   <i class="fas fa-gem me-3"></i>Libre
+                 </h6>
+                 <p>
+                   Encuentra aquí todos los libros que buscas a un ligero precio, si no puedes comprar en nuestra tienda física te lo llevamos a tu casa.
+                 </p>
+               </div>
+               <!-- Grid column -->
+       
+               <!-- Grid column -->
+               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                 <!-- Links -->
+                 <h6 class="text-uppercase fw-bold mb-4">
+                   Libre
+                 </h6>
+                 <p>
+                   <a href="#!" class="text-reset">Nosotros</a>
+                 </p>
+                 <p>
+                   <a href="#!" class="text-reset">Tiendas</a>
+                 </p>
+                 <p>
+                   <a href="#!" class="text-reset">Contacto</a>
+                 </p>
+                 <p>
+                   <a href="#!" class="text-reset">Terminos y condiciones</a>
+                 </p>
+               </div>
+               <!-- Grid column -->
+       
+               <!-- Grid column -->
+               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                 <!-- Links -->
+                 <h6 class="text-uppercase fw-bold mb-4">
+                   Categorias
+                 </h6>
+                 <p>
+                   <a href="#!" class="text-reset">Infantil</a>
+                 </p>
+                 <p>
+                   <a href="#!" class="text-reset">Juvenil</a>
+                 </p>
+                 <p>
+                   <a href="#!" class="text-reset">Literatura</a>
+                 </p>
+                 <p>
+                   <a href="#!" class="text-reset">Gastronomía</a>
+                 </p>
+               </div>
+               <!-- Grid column -->
+       
+               <!-- Grid column -->
+               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                 <!-- Links -->
+                 <h6 class="text-uppercase fw-bold mb-4">
+                   Contactos
+                 </h6>
+                 <p><i class="fas fa-home me-3"></i>Lima, Lima, Perú</p>
+                 <p>
+                   <i class="fas fa-envelope me-3"></i>
+                   contactoslibre@libre.com
+                 </p>
+                 <p><i class="fas fa-phone me-3"></i> + 51 987 45 635</p>
+                 <p><i class="fas fa-print me-3"></i> + 51 123 45 789</p>
+               </div>
+               <!-- Grid column -->
+             </div>
+             <!-- Grid row -->
+           </div>
+         </section>
+         <!-- Section: Links  -->
+       
+         <!-- Copyright -->
+         <div class="container p-4 pb-0">
+             <!-- Section: Social media -->
+             <section class="mb-4">
+               <!-- Facebook -->
+               <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #3b5998;"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i
+               ></a>
+         
+               <!-- Twitter -->
+               <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #55acee;"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+               ></a>
+         
+               <!-- Google -->
+               <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #dd4b39;"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-google"></i
+               ></a>
+         
+               <!-- Instagram -->
+               <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #ac2bac;"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+               ></a>
+         
+               <!-- Linkedin -->
+               <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #0082ca;"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-linkedin-in"></i
+               ></a>
+               <!-- Github -->
+               <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #333333;"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-github"></i
+               ></a>
+             </section>
+             <!-- Section: Social media -->
+           </div>
+         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+           © 2021 Copyright:
+           <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Libre.com</a>
+         </div>
+         <!-- Copyright -->
+       </footer>
+       <!-- Footer -->
+             <!-- Option 1: Bootstrap Bundle with Popper -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     
+         </body>
+         </html>
+        
+     
