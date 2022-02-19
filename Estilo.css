@@ -6,11 +6,9 @@
     background-color: black;
     font-family:'Montserrat', sans-serif;
     padding: 20px 0px 20px 0px;
-    
-    
-    
-   
-
+}
+.container-fluir{
+    width: 100%;
 }
 .text-color{
     color: blue;
@@ -204,6 +202,10 @@ div.box{
 .form-control{
     width:50px;
 }
+.texto-tamaño{
+    font-size: 0.9em;
+}
+
 /*inicio de sesión*/
 
 
@@ -304,6 +306,7 @@ main{
         font-size: small;
         
     }
+
     #header_navbar{
         padding: 0px 0px 0px 0px;
 
