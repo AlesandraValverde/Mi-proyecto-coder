@@ -7,18 +7,6 @@
     font-family:'Montserrat', sans-serif;
     padding: 20px 0px 20px 0px;
 }
-.container-fluir{
-    width: 100%;
-}
-.text-color{
-    color: blue;
-}
-
-#logo{
-    width: 150px;
-    height: 110px;
-    padding: 10px 0px 10px 0px;
-}
 
 .card{
     margin-left: 100px;
@@ -203,7 +191,7 @@ div.box{
     width:50px;
 }
 .texto-tamaño{
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 /*inicio de sesión*/

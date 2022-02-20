@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caja de lectura</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="Estilo.css">
     <link rel="shortcut icon" href="favicon.png">
     
@@ -30,14 +30,21 @@
             color: rgb(255, 255, 255);
         }
         .container-fluid-5{
-            background-color: rgba(252, 164, 4, 1);
+            background-color: #D2A517;
         }
         .text-color{
             color: rgb(22, 39, 77);
         }
-       .container-fluid-6{
-           background-color: rgb(236, 236, 236);
-       }
+        .container-fluid-7{
+          background-color: rgb(255, 255, 255);
+        }
+        .container-8{
+          background-color: rgb(255, 255, 255);
+        }
+        .container-9{
+          background-color: aliceblue;
+        }
+        
     </style>
 </head>
 
@@ -45,62 +52,60 @@
 <header>
     <!-- nav1 -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-            
-                <ul class="nav justify-content-end p-3">
-                <li class="nav-item">
-                <a class="nav-link " href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="Nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="categorias.html">Categorias</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="Contacto.html">Contactos</a>
-                </li>
-                </ul>
-            </div>
-        </div>
+      <div class="row">         
+        <div class="col">
         
-       
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-light justify-content-center ">
-                <a class="navbar-brand" href="index.html">
-                <img src="logo.jpg" width="30" height="30" alt="">
-                </a>
-                </nav>
-            </div>
-            
-            <div class="col-md-8">
-                <form class="d-flex ">
-                <input class="form-control me-2  " type="search" placeholder="Search" aria-label="search">
-                <button class="btn btn-outline-secondary" type="submit">buscar</button>
-                </form>
-            </div>
+          <ul class="nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="categorias.html">Categorias</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " href="Contacto.html">Contactos</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+        
+      <div class="row align-items-center">
+        <div class="col-md-2">
+          <nav class="navbar navbar-light justify-content-center ">
+          <a class="navbar-brand" href="index.html">
+          <img src="Logo 2.svg" width="160" height="126" alt="">
+          </a>
+          </nav>
+        </div>
+      
+        <div class="col-md-6 ">
+            <form class="d-flex ">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="search">
+            <button class="btn btn-outline-secondary" type="submit">buscar</button>
+            </form>
+        </div>
 
-            <div class="col-md-3 ">
-                
-                <ul class="nav justify-content-center ">
-                <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">Tiendas</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agregar al carrito</a>
-                </li>
-                </ul>
-                </div>
-                
-            
-        </div>  
-    
+      <div class="col-md-4 ">
+          
+          <ul class="nav justify-content-end ">
+          <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">Tiendas</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Iniciarsesion.html">Iniciar sesión</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agregar al carrito</a>
+          </li>
+          </ul>
+          </div>
+      </div>
+  </div>  
 </header>
+
 <div class="container-fluid-5 ">
     <ul class="nav justify-content-center">
      <li class="nav-item ">
@@ -138,34 +143,46 @@
         </ol>
       </nav>
     </div>
-    <div>
-        <h3 class="text-center">Iniciar Sesión</h3>
+    
+
+
+  <div class="container">
+
+    <div class="row">
+        <h4>Iniciar Sesión</h4>
     </div>
 
-    <form class="container justify-content-md-center">
-        <div class="form-group row">
+  </div>
+
+  <section class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col">
+        <form >
+          <div class="form-group">
           <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
           </div>
-        </div>
-        <div class="form-group row">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-          <div class="col-sm-10">
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
             <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+        
+          <div class="form-group">
+            <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary mt-3 ">Iniciar sesión</button>
+            </div>
           </div>
         </div>
-        
-        
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary ">Sign in</button>
-          </div>
-        </div>
-      </form>
-      
-     
+        </form>
+      </div>
+    </div>
+  </section>
     <footer class="text-center text-lg-start bg-light text-muted">
         <!-- Section: Social media -->
         <section
