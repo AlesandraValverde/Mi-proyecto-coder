@@ -1,0 +1,93 @@
+.card{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+h2{
+    color: rgba(252, 164, 4, 1);
+}
+
+div{
+    border-top-width: 10px;
+    border-right-width: 5px;
+    border-bottom-width: 10px;
+    border-left-width: 5px;
+
+}
+
+#cardprincipal{
+    display: grid;
+    grid-column-gap:10px ;
+    grid-row-gap: 15px;
+    
+}
+
+.card__title{
+    font-size: 16px;
+}
+
+.card__button--text{
+    color:rgb(255, 255, 255)
+}
+
+a{
+    text-decoration:none;
+}
+
+.card__button{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:5px;
+    width:180px;
+    height: 35px;
+
+}
+
+.card__button--linear{
+    border:transparent;
+    background-color: rgb(252, 164, 4, 1);
+}
+
+
+/*Nosotros*/
+#content{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*inicio de sesión*/
+
+
+/*La grilla es desde aqui desktop*/
+@media screen and (min-width: 600px) {
+
+
+}
+
+/* mobile +*/
+@media only screen and (min-width: 0px) and (max-width:767px){
+    .container-fluid{
+        width: 100%;
+    }
+    .text{
+        font-size:12px ;
+    }
+    #logo{
+        width: 40%;
+    }
+
+
+}

@@ -1,0 +1,41 @@
+@import url('scss/variables.scss');
+@import url('scss/card.scss');
+
+
+.container-fluid-8{
+        
+    h4{
+        color:$colorTitulos;
+    }
+    div{
+        
+        p{
+            font-size: $titulolibrotamano;
+        }
+    }
+}
+        
+
+.container-10{
+    h4{
+        color:$colorTitulos;
+        font-family: $Fuentetitulos;
+        
+    }
+}
+
+.container-fluid-13{
+    h2{
+        color: $colorTitulos;
+        font-family: $Fuentetitulos;
+        
+    }
+}
+.container{
+    h2{
+        
+        color: $colorTitulos;
+        font-family: $Fuentetitulos;
+        
+    }
+}

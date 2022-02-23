@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": ";AEAA,YAAY;AAMZ,kBAAkB;AAKlB,mBAAmB;AFPnB,AAEO,kBAFW,CAEX,EAAE,CAAA;EACD,KAAK,ECJC,OAAO;CDKb;;AAJR,AASoB,kBATF,CAKX,GAAG,CACC,GAAG,CACC,GAAG,CACC,GAAG,CACF,EAAE,CAAA;EACF,WAAW,EEZlB,QAAQ;EFaD,SAAS,EEFV,KAAK;CFGF;;AAQtB,AACI,aADS,CACT,EAAE,CAAA;EACE,KAAK,ECvBC,OAAO;CDwBhB;;AAGL,AACI,mBADe,CACf,EAAE,CAAA;EACE,KAAK,EC7BC,OAAO;CD+BhB",
+    "sources": [
+        "estilos.scss",
+        "_variables.scss",
+        "_card.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
