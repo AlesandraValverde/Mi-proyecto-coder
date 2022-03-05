@@ -1,41 +1,32 @@
-@import url('scss/variables.scss');
-@import url('scss/card.scss');
+@import"variantes";
+@import"pages/nosotros";
+@import"pages/inicio";
+@import"pages/categorias";
+@import"pages/contactos";
 
 
-.container-fluid-8{
-        
-    h4{
-        color:$colorTitulos;
-    }
-    div{
-        
-        p{
-            font-size: $titulolibrotamano;
-        }
-    }
-}
-        
 
-.container-10{
-    h4{
-        color:$colorTitulos;
-        font-family: $Fuentetitulos;
-        
-    }
+
+
+
+
+/* Footer*/
+footer{
+    background-color: #0ED4B3;
+    color: $blanco;
+    font-family: $roboto;
+    
 }
 
-.container-fluid-13{
-    h2{
-        color: $colorTitulos;
-        font-family: $Fuentetitulos;
-        
-    }
-}
 .container{
-    h2{
-        
-        color: $colorTitulos;
-        font-family: $Fuentetitulos;
-        
+    .row{
+        font-size:$diez ;
     }
+   
+    }
+
+.cuenta{
+a{
+    color: $blanco;
+}
 }

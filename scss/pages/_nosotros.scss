@@ -1,0 +1,89 @@
+/*  body*/
+
+/*  Mixin Card*/
+@mixin card($ancho, $alto) {
+    background-color:#ffff;
+    width: 400px;
+    height: 300px;
+    border-radius:20px;
+    box-shadow :10px 10px 20px grey;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    @extend.btn1;
+    font-family: 'roboto';
+
+
+
+}
+
+/*  Modificar a mix+ */
+.container{
+    
+    .row{
+        div{
+            h2{
+                font-family: 'calibri';
+                font-style: bold;
+                color:#7A0ED4;
+                font-size: $dieciocho;
+                font-family: 'calibri';
+                font-weight: 1000;
+            }
+            p{
+                font-size: $veinticuatro;
+                font-family: 'calibri';
+                font-weight: 300;
+            }
+        }
+        
+        div{
+            .card {
+                @include card(400px, 300px);
+                
+                }
+        }
+
+        div{
+            img:nth-child(1){
+                height: 30%;
+                width: 30%;
+            }
+        
+    }
+    
+    }
+    .row{
+        div{
+            h2{
+                color: #7A0ED4;
+                font-size: $cuarenta;
+            }
+            p{
+                font-size: $veinte;
+            }
+        }
+        div{
+            img:nth-child(1){
+                height: 60%;
+                width: 60%;
+            }
+        }
+    }
+}
+.container:nth-child(2){
+    h2{
+        color: #7A0ED4;
+    }
+}
+h1{
+    color: #7A0ED4;
+    font-family: 'calibri';
+    font-size: 100px;
+    font-style:bold ;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+}

@@ -1,0 +1,276 @@
+/* prueba*/
+/*BODY CARRUSEL*/
+/* line 3, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* line 12, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+body div {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+body div h1 {
+  font-size: 2rem;
+  color: #f83b3b;
+}
+
+/*CARRUSEL*/
+/* line 25, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: #f7f7f7;
+}
+
+/* line 31, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_main_container {
+  background-color: #ffffff;
+  padding: 11px;
+}
+
+/* line 36, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_title_container {
+  border-bottom: solid 1px #f7f7f7;
+  text-align: center;
+}
+
+/* line 41, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_title {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+/* line 46, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_nav_container {
+  position: absolute;
+  right: -5px;
+  bottom: 14px;
+}
+
+/* line 52, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_nav {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 57, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_nav i {
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 5px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+/* line 65, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_nav i:hover i {
+  color: #8b8b8b;
+}
+
+/* line 69, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_prev {
+  margin-right: 15px;
+}
+
+/* line 73, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_slider_container {
+  padding-top: 13px;
+}
+
+/* line 77, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_item {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 2px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 87, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_image {
+  width: 200px;
+  height: 220px;
+}
+
+/* line 92, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_image img {
+  display: block;
+  max-width: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/* line 99, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_image img:hover {
+  -webkit-filter: opacity(70%);
+  filter: opacity(70%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/* line 106, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_content {
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* line 111, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_price {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* line 119, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_item.discount {
+  text-align: center;
+  color: #f83b3b;
+}
+
+/* line 124, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_price {
+  text-align: center;
+  color: #27333d;
+}
+
+/* line 129, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_price span {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 8px;
+}
+
+/* line 137, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_price span::after {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: 1px;
+  background: #dddddd;
+  content: '';
+}
+
+/* line 148, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.precioAntes {
+  font-size: 1rem;
+  -webkit-text-decoration: dashed;
+  text-decoration: dashed;
+  color: #8b8b8b;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+/* line 157, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* line 162, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_name a {
+  font-size: 14px;
+  color: #000000;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* line 171, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_name a:hover {
+  color: #b8860b;
+}
+
+/* line 175, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.item_marks {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+/* line 181, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.item_marks .item_mark {
+  display: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+}
+
+/* line 193, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.item_marks .item_discount {
+  background: #f83b3b;
+  margin-right: 5px;
+}
+
+/* line 198, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.item_marks .item_discount2 {
+  background: #26435a;
+  margin-right: 5px;
+}
+
+/* line 203, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.item_marks .item_new {
+  background: #b8860b;
+}
+
+/* line 207, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_item.discount .item_discount {
+  display: inline-block;
+}
+
+/* line 211, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_item.discount2 .item_discount2 {
+  display: inline-block;
+}
+
+/* line 215, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+.bbb_viewed_item.is_new .item_new {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 220, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+  .bbb_viewed_nav_container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* line 226, ../../../../../../../CODER/comision/CLASE_0_1/scss/estilos2.scss */
+  .owl-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=prod.css.map */
+
+/*# sourceMappingURL=estilos2.css.map */

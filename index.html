@@ -1,87 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="description" content="Libre es una librería exclusivamente para niños y jovenes. Tenemos desde juegos hasta textos escolares.">
+    <meta name="keywords"  content="Libros, libreria, niños, jovenes">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caja de lectura</title>
-    <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="favicon.png">
-    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-    <style>
-        .container-fluid-1{
-            background-color: rgb(255, 255, 255);
-        }
-        
-        .container-fluid{
-            background-color: rgb(22, 39, 77);
-            
-            
-        }
-        .row-1{
-            background-color: rgb(22, 39, 77);
-        }
-        .row-2{
-            background-color: rgb(22, 39, 77);
-        }
-        .nav-link{
-            color: rgb(255, 255, 255);
-        }
-        .container-fluid-5{
-            background-color: #D2A517;
-            color:#d2a517;
-        }
-        .text-color{
-            color: rgb(22, 39, 77);
-        }
-        .container-fluid-7{
-          background-color: rgb(255, 255, 255);
-        }
-        .container-8{
-          background-color: rgb(255, 255, 255);
-        }
-        .container-9{
-          background-color: aliceblue;
-        }
-        .container-10{
-          background-color: white;
-        }
-        .container-fluid-13{
-          background-color: rgb(22, 39, 77);
-        }
-        
-    </style>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <enlace href="https: //fonts.googleapis.com/css2? family= Roboto:wght@300 &familia= Varela+Redondo & display=swap" rel="stylesheet">
+     
+   
 </head>
 <body>
 <header>
     <!-- nav1 -->
-    <div class="container-fluid">
-      <div class="row ">         
-        <div class="col ">
-          <ul class="nav">
-            <li class="nav-item">
-            <a class="nav-link text " href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active text " href="Nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text" href="categorias.html">Categorias</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text" href="Contacto.html">Contactos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+   <!-- Primer nav  
+  <div class="container-fluid">
+    <div class="col ">
+        <ul class="nav">
+          <li class="nav-item">
+          <a class="nav-link " href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" href="Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="categorias.html">Categorias</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Contacto.html">Contactos</a>
+          </li>
+        </ul>
+    </div>
+  </div>--> 
+    
+
+    <div class="container-fluid">  
         
       <div class="row align-items-center">
+
         <div class="col-md-2">
           <nav class="navbar navbar-light justify-content-center ">
           <a class="navbar-brand" href="index.html">
-          <img src="Logo 2.svg" width="160" height="126" alt="">
+          <img class="animate__animated animate__bounceIn" src="Logo 2.svg" width="160" height="126" alt="">
           </a>
           </nav>
         </div>
@@ -93,40 +61,71 @@
             </form>
         </div>
 
-      <div class="col-md-4 ">
-          
-          <ul class="nav justify-content-end ">
+        <div class="col-md-4 ">
+          <ul class="nav justify-content-end contenedor-icono">
           <li class="nav-item">
-          <a href="Tiendas.html" class="nav-link active" aria-current="page">Tiendas</a>
+          <a class="nav-link" href="Iniciarsesion.html"><i class="bi bi-person-fill"></i></a>
           </li>
           <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Iniciarsesion.html">Iniciar sesión</a>
+          <a class="nav-link" href="Tiendas.html"><i class="bi bi-geo-alt-fill"></i></a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Agregar al carrito</a>
+          <a class="nav-link" href="Carrito.html"><i class="bi bi-cart-fill"></i></a>
           </li>
           </ul>
-          </div>
+        </div>
+
       </div>
-  </div>  
+    </div>
+    
+    <div class="container-fluid">
+      <ul class="nav justify-content-center" >
+       <li class="nav-item">
+         <a class="nav-link" href="#">INFANTIL</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">JUVENIL</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">FICCIÓN</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">NO FICCIÓN</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="#">PLAN LECTOR</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">MÁS</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">PRE-VENTA</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link " href="#">OFERTAS</a>
+         </li>
+         
+     </ul>
+       </div>
     
 </header>
+<!------------------------------------- Inicio del cuerpo-------------------------------------------------------------->
 
-    <div class="container-fluid-7">
+    <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="Recurso 1.svg" class="d-block w-100" alt="...">
+                    <img src="banner2.svg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Recurso 2.svg" class="d-block w-100 " alt="...">
+                    <img src="banner1.svg" class="d-block w-100 " alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Recurso 3.svg" class="d-block w-100 " alt="...">
+                    <img src="Banner3.svg" class="d-block w-100 " alt="...">
                 </div>
             </div>
         </div>
-    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls h-30" data-bs-slide="prev">
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls h-30" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
@@ -137,271 +136,64 @@
     </div>
 
    <!--  menu de categorias -->
-   <div class="container-fluid-5">
-   <ul class="nav justify-content-center" >
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Infantil</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Juvenil</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Ficción</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">No ficción</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link active" href="#">Plan lector</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Más</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pre-venta</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Ofertas</a>
-      </li>
-      
-  </ul>
-    </div>
-  <!--  fin de menu de categorias -->
-  <div class="container-fluid-8 ">
-      <div class="title-home-page">
-        <h4 class="text-center mt-5">Recomendadas</h4>
-      </div> 
-      <div class="row row-cols-4 justify-content-center align-items-center ">
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Principitobook.png" alt="Card image cap">
-                <div class="card-body">
-                <p class="card-title">EL PRINCIPITO</p>
-                <p class="card-text">S/. 50</p>
-                <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Ana la de.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">ANA LA DE TEJAS VERDES</h5>
-                    <p class="card-text">S/.40</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Animales peruanos.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">ANIMALES PERUANOS</h5>
-                    <p class="card-text">S/. 30</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Cuentos de buenas noches.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">CUENTOS DE BUENAS NOCHES</h5>
-                    <p class="card-text">S/ 50</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="row row-cols-4 justify-content-center ">
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="El diario de greg.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">EL DIARIO DE GREG</h5>
-                    <p class="card-text">S/. 60</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="En busca.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">EN BUSCA DE LA FELICIDAD</h5>
-                    <p class="card-text">S/.55</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="En busca.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">EN BUSCA DE LA FELICIDAD</h5>
-                    <p class="card-text">S/.55</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="En busca.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">EN BUSCA DE LA FELICIDAD</h5>
-                    <p class="card-text">S/.55</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-      </div>
+  <div class="container">
+    <h1>Bienvenido</h1>
   </div>
-<div class="container-10">
-    <div class="title-home-page">
-      <h4 class="text-center mt-5">Las más solicitadas</h4>
+
+  <div class="container">
+
+    <div class="row home1">
+      <div class="col">
+        <img class="card__image " src="home1.svg" alt="">
+      </div>
+      <div class="col">
+        <img class="card__image home2" src="home2.svg" alt="">  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis distinctio accusamus magni! Cumque quis fuga voluptate iste explicabo voluptatum laborum architect
+          o. Expedita alias tenetur voluptates doloribus earum ipsam consequuntur.</p>
+        <a href="#" class="btn btn1">Comprar</a>
+      </div>
     </div>
-
-    <div class="row row-cols-4 justify-content-center ">
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Los compas.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">LOS COMPAS</h5>
-                    <p class="card-text">S/.45</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Moustro.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">MONSTRUO TRISTE, MONSTRUO FELIZ</h5>
-                    <p class="card-text">S/.60.</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Los 7 habitos.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">LOS SIETE HABITOS QUE LA GENTE</h5>
-                    <p class="card-text">S/.35</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Love you.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">LOVE YOU</h5>
-                    <p class="card-text">S/. 50</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-      </div>
-
-    <div class="row row-cols-4 justify-content-center ">
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="La bailarina.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">LA BAILARINA</h5>
-                    <p class="card-text">S/.45</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Unidos.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">UNIDOS</h5>
-                    <p class="card-text">S/60</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Unidos.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">UNIDOS</h5>
-                    <p class="card-text">S/60</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="card" style="width: 13rem;">
-                <img class="card-img-top" src="Unidos.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">UNIDOS</h5>
-                    <p class="card-text">S/60</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section class="container-fluid-13 ">
-
-  <div class="row h-100 ">
-
-    <div class="col-6 text-light">
-            
-      <h2>Blog</h2>
-      <p>Suscríbete al blog por correo electrónico</p>
-      <div class="col-1">
-
-      </div>
-
-      <div class=" col-4">
-        <label for="inputPassword2" class="sr-only"></label>
-        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-      </div>
-
-      <div class="col-3">
-        <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
-      </div>
-        <button class="btn btn-outline-secondary mt-8" type="submit">Mas Info</button>
-            
-    </div>
-
-      <div class="bg-dark text-light col-6 div-izq">
-          <h2>Noticias</h2>
-          <p class="mb-5"> La Biblioteca Nacional brindará 5 cursos sobre Gestión de las colecciones. No te pierdas esta oportunidad porque se entregará certificado de asisetencia. </p>
-          <button class="btn btn-outline-secondary mb-4" type="submit">Mas Info</button>
-      </div>
-
   </div>
-    
-    <!--   otra manera de hacerlo 
-    <div class="container-fluid h-100 d-flex">
-        <div class="div-der w-50">
-          
-        </div>
-        <div class="div-izq w-50 bg-dark text-light p-4">
-             <h2 class="mt-2 mb-5">Contenido</h2>
-             <p class="mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, accusantium cupiditate tempore deleniti quia quae placeat id inventore dicta sint omnis pariatur quas deserunt! Fuga sed corporis natus delectus. </p>
-             <button class="btn btn-outline-secondary mt-5" type="submit">Mas Info</button>
-        </div>
 
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <img class="card__image home2" src="home3.1.svg" alt="">  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis distinctio accusamus magni! Cumque quis fuga voluptate iste explicabo voluptatum laborum architect
+          o. Expedita alias tenetur voluptates doloribus earum ipsam consequuntur.</p>
+        <a href="#" class="btn btn1">Comprar</a>
+      </div>
+      <div class="col">
+        <img class="card__image " src="Home3.svg" alt="">
+      </div>
     </div>
+  </div>
 
-   -->
-</section>
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <img class="card__image " src="home4.svg" alt="">
+      </div>
+      <div class="col">
+        <img class="card__image home2" src="home4.1.svg" alt="">  
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis distinctio accusamus magni! Cumque quis fuga voluptate iste explicabo voluptatum laborum architect
+        o. Expedita alias tenetur voluptates doloribus earum ipsam consequuntur.</p>
+        <a href="#" class="btn btn1">Comprar</a>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+
+
+
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+<footer class="text-center text-lg-start">
     <!-- Section: Social media -->
     <section
       class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -438,7 +230,7 @@
     <!-- Section: Social media -->
   
     <!-- Section: Links  -->
-    <section class="">
+    <section class="footerprin">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
@@ -449,7 +241,8 @@
               <i class="fas fa-gem me-3"></i>Libre
             </h6>
             <p>
-              Encuentra aquí todos los libros que buscas a un ligero precio, si no puedes comprar en nuestra tienda física te lo llevamos a tu casa.
+              Encuentra aquí todos los libros que buscas a un ligero precio, si no puedes 
+              comprar en nuestra tienda física te lo llevamos a tu casa.
             </p>
           </div>
           <!-- Grid column -->
@@ -461,13 +254,19 @@
               Libre
             </h6>
             <p>
+              <a href="index.html" class="text-reset">Inicio</a>
+            </p>
+            <p>
               <a href="Nosotros.html" class="text-reset">Nosotros</a>
+            </p>
+            <p>
+              <a href="categorias.html"class="text-reset">Categorias</a>
             </p>
             <p>
               <a href="Tiendas.html" class="text-reset">Tiendas</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Contacto</a>
+              <a href="contacto.html" class="text-reset">Contacto</a>
             </p>
             <p>
               <a href="#!" class="text-reset">Terminos y condiciones</a>
@@ -577,7 +376,7 @@
         <!-- Section: Social media -->
       </div>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
+      © 2022 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Libre.com</a>
     </div>
     <!-- Copyright -->
