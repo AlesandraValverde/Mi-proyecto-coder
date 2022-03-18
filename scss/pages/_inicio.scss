@@ -1,21 +1,70 @@
+/* main 1*/
+main{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+.container:nth-child(3){
+    @include espacios;
 
-body{
-    font-family: 'calibri';
+}
+.container:nth-child(4){
+    @include espacios;
+
+}
+.container:nth-child(5){
+    @include espacios;
+
+}
+/*Fondo de iconos de editoriales*/
+.container-fluid:nth-child(6){
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.columna{
+    align-content: center;
+}
+p.columna__subtitulo{
+    color: $lila;
+    font-size: 16px;
+    font-style:$catorce;
+}
+.columna__imagen{
+    @include imagenes(400px,400px);
+    align-content: center;
+    
+}
+.columna__ilustracion{
+    @include imagenes(500px,500px);
+    align-items: center;
+}
+
+.lista{
+    font-size: $dieciseis;
 }
 /* mapas 1*/
 $estilosfilas:(
    width:1400px,
-   height:600px,
+   height:635px,
    center:justify-content,
    centeritem:align-items,
 
 );
-.home1{
+.fila{
     width:map-get($estilosfilas, width);
     height:map-get($estilosfilas, height);
     justify-content:map-get($estilosfilas, center);
     align-items:map-get($estilosfilas, center);
+    justify-items: center;
+    align-content: center;
+    
+    
 }
+/* FIN mapas 1*/
+
+/*mapas 2*/
 $estilosbotones:(
    width:100px,
    height:40px,
@@ -29,35 +78,24 @@ $estilosbotones:(
     background-color: map-get($estilosbotones,background-color );
     color:map-get($estilosbotones,color);
 }
-
-
-/* Mixin card principales*/
-@mixin card($ancho, $alto) {
-    background-color:#ffff;
-    width: 300px;
-    height: 400px;
-    border-radius:20px;
-    box-shadow :10px 10px 20px grey;
-    align-items: center;
-    justify-content: center;
-}
-
-.card {
-    @include card(300px,400px);
-    
-    }
-
-
+/*mapas 2*/
 h4{
     color:#7A0ED4;
-    font-family: 'calibri';
     font-style:bold ;
 
     }
+h2{
+    color:#7A0ED4;
+    font-style:bold;
+    
+}    
+h1{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 700;
+}
 
-
-
-
+/*Iconos*/
 .contenedor-icono{
     li{
         i{
@@ -68,40 +106,10 @@ h4{
         }
     }
 }
+/*FIN Iconos*/
 
-.card{
-    width: 60%;
-}
-.card-img{
-    width: 30px;
-    height: 300px;
-}
 
-.container-fluid:nth-child(1){
-    background: #0ED4B3  ;
-    div{
-       .btn{
-           background:$blanco ;
-       } 
-    }
-}
-.container-fluid:nth-child(2){
-    background-color: #0ED4B3;
-    ul{
-        li{
-            a{
-                color:$blanco;
-                font-size: $dieciocho;
-                font-family: 'calibri';
-                font-style:bold;
-                font-weight: 1000;
-            }
-        }
-        
-        }
-        
-    }
- 
+
 header{
     position: sticky;
     top:0px;
@@ -111,36 +119,3 @@ header{
 
 
 
-
-
-    .card-group{
-        width:1400px;
-        height: 450px;
-        margin: 0 auto;
-       
-        .card{
-            float: left;
-            width: 250px;
-            margin-bottom: 20px;
-            img{
-                width: 180px;
-                margin-top: 10px;
-                padding-top: 5px;
-            }
-        }
-        .card-body{
-            justify-content: space-between;
-            align-items: center;
-            justify-items: center;
-            display:flex;
-            flex-direction: column;
-            .btn{
-                background-color: #7A0ED4;
-                color:$blanco;
-                outline: none;
-            }
-            
-            
-        }
-        
-    }

@@ -1,0 +1,27 @@
+
+/* encabezado(logo, buscador e iconos*/
+.container-fluid:nth-child(2){
+    background-color:$verde;
+    ul{
+        li{
+            a{
+                color: $blanco;
+                font-size: $dieciocho;
+                font-family: 'calibri';
+                font-style:bold;
+                font-weight: 1000;
+            }
+        }
+        
+        }
+        
+}
+/* menu*/
+.container-fluid:nth-child(1){
+    background: #0ED4B3  ;
+    div{
+       .btn{
+           background:#ffff ;
+       } 
+    }
+}

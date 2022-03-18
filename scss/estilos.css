@@ -1,87 +1,11 @@
 @charset "UTF-8";
+/* utils*/
 /* tipografia*/
 /* colores*/
 /* tamaño*/
-/*  body*/
-/*  Mixin Card*/
-/*  Modificar a mix+ */
-.container .row div h2 {
-  font-family: 'calibri';
-  font-style: bold;
-  color: #7A0ED4;
-  font-size: 18px;
-  font-family: 'calibri';
-  font-weight: 1000;
-}
-
-.container .row div p {
-  font-size: 24px;
-  font-family: 'calibri';
-  font-weight: 300;
-}
-
-.container .row div .card {
-  background-color: #ffff;
-  width: 400px;
-  height: 300px;
-  border-radius: 20px;
-  -webkit-box-shadow: 10px 10px 20px grey;
-          box-shadow: 10px 10px 20px grey;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container .row div img:nth-child(1) {
-  height: 30%;
-  width: 30%;
-}
-
-.container .row div h2 {
-  color: #7A0ED4;
-  font-size: 40px;
-}
-
-.container .row div p {
-  font-size: 20px;
-}
-
-.container .row div img:nth-child(1) {
-  height: 60%;
-  width: 60%;
-}
-
-body {
-  font-family: 'calibri';
-}
-
-.contenedor-icono li i {
-  font-size: 24px;
-  width: 30px;
-  height: 30px;
-  color: white;
-}
-
-.card {
-  width: 60%;
-}
-
-.card-img {
-  width: 30px;
-  height: 300px;
-}
-
-.container-fluid:nth-child(1) {
-  background: #0ED4B3;
-}
-
-.container-fluid:nth-child(1) div .btn {
-  background: white;
-}
-
+/* Base*/
+/* layout*/
+/* encabezado(logo, buscador e iconos*/
 .container-fluid:nth-child(2) {
   background-color: #0ED4B3;
 }
@@ -94,6 +18,187 @@ body {
   font-weight: 1000;
 }
 
+/* menu*/
+.container-fluid:nth-child(1) {
+  background: #0ED4B3;
+}
+
+.container-fluid:nth-child(1) div .btn {
+  background: #ffff;
+}
+
+footer {
+  height: 1000px;
+}
+
+/* pages*/
+/*  Modificar a mix+ */
+.container .row div h2 {
+  font-family: 'calibri';
+  font-style: bold;
+  color: #7A0ED4;
+  font-family: 'calibri';
+  font-weight: 1000;
+}
+
+.container .row div p {
+  font-size: 24px;
+  font-family: 'calibri';
+  font-weight: 300;
+}
+
+.container .row div h2 {
+  color: #7A0ED4;
+  font-size: 40px;
+}
+
+.container .row div p {
+  font-size: 20px;
+}
+
+h1 {
+  color: #7A0ED4;
+  font-family: 'calibri';
+  font-size: 100px;
+  font-style: bold;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nosotros-ilustracion {
+  height: 500px;
+  width: 500px;
+}
+
+/* main 1*/
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container:nth-child(3) {
+  height: 750px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.container:nth-child(4) {
+  height: 750px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.container:nth-child(5) {
+  height: 750px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+/*Fondo de iconos de editoriales*/
+.container-fluid:nth-child(6) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.columna {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+p.columna__subtitulo {
+  color: #7A0ED4;
+  font-size: 16px;
+  font-style: 14px;
+}
+
+.columna__imagen {
+  width: 400px;
+  height: 400px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.columna__ilustracion {
+  width: 500px;
+  height: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lista {
+  font-size: 16px;
+}
+
+/* mapas 1*/
+.fila {
+  width: 1400px;
+  height: 635px;
+  -webkit-box-pack: justify-content;
+      -ms-flex-pack: justify-content;
+          justify-content: justify-content;
+  -webkit-box-align: justify-content;
+      -ms-flex-align: justify-content;
+          align-items: justify-content;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/* FIN mapas 1*/
+/*mapas 2*/
+.btn1 {
+  width: 100px;
+  height: 40px;
+  background-color: #7A0ED4;
+  color: #ffffff;
+}
+
+/*mapas 2*/
+h4 {
+  color: #7A0ED4;
+  font-style: bold;
+}
+
+h2 {
+  color: #7A0ED4;
+  font-style: bold;
+}
+
+h1 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+/*Iconos*/
+.contenedor-icono li i {
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+/*FIN Iconos*/
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -103,48 +208,6 @@ header {
           box-shadow: 5px 0px 15px;
 }
 
-.container .card-group {
-  width: 1400px;
-  height: 450px;
-  margin: 0 auto;
-}
-
-.container .card-group .card {
-  float: left;
-  width: 250px;
-  margin-bottom: 20px;
-}
-
-.container .card-group .card img {
-  width: 180px;
-  margin-top: 10px;
-  padding-top: 5px;
-}
-
-.container .card-group .card-body {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.container .card-group .card-body .btn {
-  background-color: #7A0ED4;
-  color: white;
-  outline: none;
-}
-
-/* Nosotros*/
 /* Footer*/
 footer {
   background-color: #0ED4B3;

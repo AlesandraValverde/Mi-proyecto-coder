@@ -1,0 +1,24 @@
+
+@mixin card($ancho, $alto, $border-radius,$background-color ) {
+    background-color:$background-color;
+    width: $ancho;
+    height: $alto;
+    border-radius:$border-radius;
+    box-shadow :10px 10px 20px grey;
+    align-items: center;
+    justify-content: center;
+}
+@mixin imagenes($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+@mixin espacios{
+    height: 750px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}

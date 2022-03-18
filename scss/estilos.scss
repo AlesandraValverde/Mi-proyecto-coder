@@ -1,11 +1,17 @@
+/* utils*/
 @import"variantes";
+@import"utils/mixins";
+/* Base*/
+@import'base/Tipografía';
+/* layout*/
+@import'layout/nav';
+@import'layout/footer';
+@import'layout/header';
+/* pages*/
 @import"pages/nosotros";
 @import"pages/inicio";
 @import"pages/categorias";
 @import"pages/contactos";
-
-
-
 
 
 
