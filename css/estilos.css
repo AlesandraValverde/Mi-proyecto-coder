@@ -31,11 +31,6 @@
   background: #ffff;
 }
 
-/* line 1, ../../../../CODER/comision/CLASE_0_1/scss/layout/_footer.scss */
-footer {
-  height: 1000px;
-}
-
 /* pages*/
 /*  Modificar a mix+ */
 /* line 6, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
@@ -90,18 +85,7 @@ main {
   border: 0;
 }
 
-/* line 7, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
-.container:nth-child(3) {
-  height: 750px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  border-top: 0px;
-  border-bottom: 0px;
-}
-
-/* line 11, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 8, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .container:nth-child(4) {
   height: 750px;
   padding-top: 40px;
@@ -112,7 +96,7 @@ main {
   border-bottom: 0px;
 }
 
-/* line 15, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 12, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .container:nth-child(5) {
   height: 750px;
   padding-top: 40px;
@@ -124,45 +108,45 @@ main {
 }
 
 /*Fondo de iconos de editoriales*/
-/* line 20, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 17, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .container-fluid:nth-child(6) {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 26, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 23, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .columna {
   align-content: center;
 }
 
-/* line 29, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 26, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 p.columna__subtitulo {
   color: #7A0ED4;
   font-size: 16px;
   font-style: 14px;
 }
 
-/* line 34, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 31, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .columna__imagen {
   width: 400px;
   height: 400px;
   align-content: center;
 }
 
-/* line 39, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 36, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .columna__ilustracion {
   width: 500px;
   height: 500px;
   align-items: center;
 }
 
-/* line 44, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 41, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .lista {
   font-size: 16px;
 }
 
 /* mapas 1*/
-/* line 55, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 52, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .fila {
   width: 1400px;
   height: 635px;
@@ -174,7 +158,7 @@ p.columna__subtitulo {
 
 /* FIN mapas 1*/
 /*mapas 2*/
-/* line 75, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 72, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .btn1 {
   width: 100px;
   height: 40px;
@@ -183,19 +167,19 @@ p.columna__subtitulo {
 }
 
 /*mapas 2*/
-/* line 82, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 79, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 h4 {
   color: #7A0ED4;
   font-style: bold;
 }
 
-/* line 87, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 84, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 h2 {
   color: #7A0ED4;
   font-style: bold;
 }
 
-/* line 92, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 89, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 h1 {
   padding-bottom: 30px;
   padding-top: 30px;
@@ -203,7 +187,7 @@ h1 {
 }
 
 /*Iconos*/
-/* line 101, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 98, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 .contenedor-icono li i {
   font-size: 24px;
   width: 30px;
@@ -212,7 +196,7 @@ h1 {
 }
 
 /*FIN Iconos*/
-/* line 113, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 110, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 header {
   position: sticky;
   top: 0px;
@@ -220,20 +204,135 @@ header {
   box-shadow: 5px 0px 15px;
 }
 
+/* line 1, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+body {
+  background-color: #faf9fb;
+}
+
+/* line 4, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-item {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+/* line 15, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.container.page-content {
+  max-width: 1200px;
+  padding-top: 60px;
+}
+
+/* line 19, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.form-search-wrapper {
+  padding-top: 20px;
+}
+
+/* line 22, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+#searchform input {
+  width: 300px;
+  background-position: 10px center;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 1rem;
+  padding: 24px 24px 24px 44px;
+  width: 100%;
+  border: 1px solid #cedadb;
+  margin: 0 auto;
+  display: block;
+  max-width: 740px;
+}
+
+/* line 36, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+#q {
+  width: 900px;
+  height: 50px;
+  padding: 24px,24, 24px, 44px;
+  border: 1px,1px,1px,1px;
+}
+
+/* line 42, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.subtitulo h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*imagenes de libro*/
+/* line 48, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.columnas-libros {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* line 52, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-logo {
+  float: none;
+  margin: 8px 14px 0 0;
+  max-width: 130px;
+  max-height: 150px;
+}
+
+/* line 58, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-info {
+  margin: 0px;
+}
+
+/* line 61, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-titulo {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #0ED4B3;
+  margin-bottom: 4px;
+}
+
+/* line 68, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-num-titulo {
+  background-color: #eeedee63;
+  font-size: .8rem;
+  color: #a6b0b0;
+  padding: 0;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 81, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-autor {
+  font-size: .8rem;
+}
+
+/* line 84, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
+.libro-descripcion {
+  font-size: 14px;
+}
+
+/* line 17, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+.body {
+  background-color: #faf9fb;
+}
+
 /* Footer*/
-/* line 20, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 22, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 footer {
   background-color: #0ED4B3;
   color: white;
   font-family: "roboto";
 }
 
-/* line 28, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 30, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 .container .row {
   font-size: 10px;
 }
 
-/* line 35, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 37, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 .cuenta a {
   color: white;
 }

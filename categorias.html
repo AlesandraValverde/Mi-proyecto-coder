@@ -106,91 +106,370 @@
 </header>
 <!------------------------------------- Inicio del cuerpo-------------------------------------------------------------->
 <!--  menu de categorias -->
-<section>
-   <div class="title-home-page">
-    <h4 class="text-center mt-5">Los libros recomendados</h4>
-  </div> 
 
-</section>
-
-<section class="container ">
-   <div class="card-group">
-    <div class="card">
-      <img src="Principitobook.png" class="rounded mx-auto d-block" alt="El principito">
-      <div class="card-body">
-        <h5 class="card-title">EL PRINCIPITO</h5>
-        <p class="card-text">S/.50</p>
-        <a href="#" class="btn">Comprar</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Moustro.png" class="rounded mx-auto d-block" alt="El principito">
-      <div class="card-body">
-        <h5 class="card-title">Monstruo</h5>
-        <p class="card-text">S/.50</p>
-        <a href="#" class="btn ">Comprar</a>
-      </div>
-    </div>
-
+<div>
+       
     
-    <div class="card">
-      <img src="Ana la de.png" class="rounded mx-auto d-block" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">ANA LA DE TEJAS VERDES</h5>
-        <p class="card-text">s/45</p>
-        <a href="#" class="btn">Comprar</a>
+<img src="Imagenes/catalogo.svg" alt=""> 
+</div>
+<main class="container pagina-contenido">
+
+  <div class="row-fluid">
+  <div class="span12">
+    <section class="categorias catalogo-list">
+      <div class="form-search-wrapper">
+       <form class="form-search" action="/search/" id="searchform" method="get">
+         <input type="hidden" name="tag" value="book">
+         <input type="text" id="q" name="q" value placeholder="Buscar en el catálogo">
+         </form>
       </div>
-    </div>
-    <div class="card">
-      <img src="Animales peruanos.png" class="rounded mx-auto d-block" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">ANIMALES PERUANOS</h5>
-        <p class="card-text">S/60</p>
-        <a href="#" class="btn">Comprar</a>
+<!--  Cuentos illustrados -->
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="row subtitulo"><h2>1. Cuentos ilustrados</h2></div>
+    <div class="row">
+
+    <div class="col col-md-6 columnas-libros">
+      <div class="libro-item">
+        <a href="" class="libro-link"></a>
+        <img class="libro-logo" src="Imagenes/catalogo/principito.svg" alt="">
+        <div class="libro-info">
+          <div class="libro-titulo"> El principito
+            <span class="libro-num-titulo">10</span>
+          </div>
+          
+          <div class="libro-descripcion">
+            El clásico de la literatura, no solo infantil, narra la historia
+            del Principito, el cual a través de un lenguaje aparentemente 
+            sencillo y de vivencias propias, deja enseñanzas de vida.
+          </div>
+          </div>
+        </div>
       </div>
+
+      <div class="col col-md-6 columnas-libros">
+        <div class="libro-item">
+          <a href="" class="libro-link"></a>
+          <img class="libro-logo" src="Imagenes/catalogo/vengadores.svg" alt="">
+          <div class="libro-info">
+            <div class="libro-titulo">Vengadores
+              <span class="libro-num-titulo">10</span>
+            </div>
+            <div class="libro-descripcion">
+              Descubre la enciclopedia de personajes ilustrada de los superhéroes más
+              poderosos de la Tierra, con más de 200 héroes y villanos.
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-6 columnas-libros">
+          <div class="libro-item">
+            <a href="" class="libro-link"></a>
+            <img class="libro-logo" src="Imagenes/catalogo/dragones.svg" alt="">
+            <div class="libro-info">
+              <div class="libro-titulo">Y llegaron los dragones
+                <span class="libro-num-titulo">5</span>
+              </div>
+              <div class="libro-descripcion">
+                Cuando una familia de ruidosos dragones llega al tranquilo pueblo
+                de Villatrajín, se arma un buen jaleo. El supermercado acaba patas
+                arriba, la biblioteca se llena de alboroto y en la escuela aparecen
+                nuevos estudiantes que lo destrozan todo. ¡Es un caos!
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-6 columnas-libros">
+            <div class="libro-item">
+              <a href="" class="libro-link"></a>
+              <img class="libro-logo" src="Imagenes/catalogo/ratitas.svg" alt="">
+              <div class="libro-info">
+                <div class="libro-titulo">Las Ratitas 3. La misteriosa magia de
+                  las Súper Ratitas
+                  <span class="libro-num-titulo">10</span>
+                </div>
+                <div class="libro-descripcion">
+                  ¡Las Ratitas dan una fiesta de pijamas! Gisele y Claudia han
+                  invitado a sus nuevas amigas Sara y Julia. La fiesta va
+                  genial hasta que, antes de acostarse, se dan cuenta de que
+                  Sara ha perdido el colgante que le regaló su abuela.
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6 columnas-libros">
+              <div class="libro-item">
+                <a href="" class="libro-link"></a>
+                <img class="libro-logo" src="Imagenes/catalogo/buenas.svg" alt="">
+                <div class="libro-info">
+                  <div class="libro-titulo">Cuentos de buenas noches para niñas rebeldes
+                    <span class="libro-num-titulo">10</span>
+                  </div>
+                  <div class="libro-descripcion">
+                    Había una vez una princesa... ¿una princesa? ¡¿Qué?! Había una
+                    vez niña que quería llegar hasta Marte. Érase una vez una mujer
+                    que se convirtió en una de las mejores tenistas del mundo y 
+                    otra que descubrió cómo se da la metamorfosis de las mariposas.
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-md-6 columnas-libros">
+                <div class="libro-item">
+                  <a href="" class="libro-link"></a>
+                  <img class="libro-logo" src="Imagenes/catalogo/Dani.svg" alt="">
+                  <div class="libro-info">
+                    <div class="libro-titulo">Las aventuras de Dani y Evan
+                      <span class="libro-num-titulo">10</span>
+                    </div>
+                    <div class="libro-descripcion">
+                      ¡Skuiter ha desaparecido! Rápidamente se ponen todos a buscarlo
+                      hasta que descubren que… ¡ha ido al santuario! Dani, Evan,
+                      Bizcoché, Julián y Maribel viajan hasta el Jurásico para
+                      buscar a su amigo. ¿Estará en peligro? Pero cuando llegan,
+                      descubren que algo terrible sucede en el mundo secreto de
+                      los dinosaurios. 
+                    </div>
+                  </div>
+                </div>
+              </div>
     </div>
+    </div>            
   </div>
-</section>
-<section class="container ">
-  <div class="card-group">
-   <div class="card">
-     <img src="Principitobook.png" class="rounded mx-auto d-block" alt="El principito">
-     <div class="card-body">
-       <h5 class="card-title">El principito</h5>
-       <p class="card-text">S/.50</p>
-       <a href="#" class="btn">Comprar</a>
-     </div>
-   </div>
 
-   <div class="card">
-     <img src="Principitobook.png" class="rounded mx-auto d-block" alt="El principito">
-     <div class="card-body">
-       <h5 class="card-title">El principito</h5>
-       <p class="card-text">S/.50</p>
-       <a href="#" class="btn">Comprar</a>
-     </div>
-   </div>
+  <!--  Infantil/bebes-->
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="row subtitulo"><h2>2. Infantil/bebés</h2></div>
+    <div class="row">
 
-   
-   <div class="card">
-     <img src="Ana la de.png" class="rounded mx-auto d-block" alt="...">
-     <div class="card-body">
-       <h5 class="card-title">ANA LA DE TEJAS VERDES</h5>
-       <p class="card-text">s/45</p>
-       <a href="#" class="btn">Comprar</a>
-     </div>
-   </div>
-   <div class="card">
-     <img src="Animales peruanos.png" class="rounded mx-auto d-block" alt="...">
-     <div class="card-body">
-       <h5 class="card-title">ANIMALES PERUANOS</h5>
-       <p class="card-text">S/60</p>
-       <a href="#" class="btn">Comprar</a>
-     </div>
-   </div>
- </div>
-</section>
+    <div class="col col-md-6 columnas-libros">
+      <div class="libro-item">
+        <a href="" class="libro-link"></a>
+        <img class="libro-logo" src="Imagenes/catalogo/a dormi sapo.svg" alt="">
+        <div class="libro-info">
+          <div class="libro-titulo"> ¡A dormir! El jardín
+            <span class="libro-num-titulo">10</span>
+          </div>
+          
+          <div class="libro-descripcion">
+            Comparte con el bebé un momento lleno de ternura antes de ir a dormir.
+            Dales las buenas noches y cierra los ojos de las mariposas, las mariquitas,
+            los caracoles y los pajaritos. Gracias a un sencillo mecanismo, el mismo
+            bebé podrá cerrar los ojos de los animales del jardín, preparándose para
+            cerrar los suyos al final.
+
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-6 columnas-libros">
+        <div class="libro-item">
+          <a href="" class="libro-link"></a>
+          <img class="libro-logo" src="Imagenes/catalogo/cucu.svg" alt="">
+          <div class="libro-info">
+            <div class="libro-titulo">Cucú. Pollito
+              <span class="libro-num-titulo">10</span>
+            </div>
+            <div class="libro-descripcion">
+              Conectar con las caras y jugar al cucú es uno de los primeros
+              juegos de cualquier criatura. Por ello los más pequeños
+              adorarán este libro interactivo para bebés y querrán leerlo
+              una y otra vez, al principio acompañados y luego de manera
+              autónoma.
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-6 columnas-libros">
+          <div class="libro-item">
+            <a href="" class="libro-link"></a>
+            <img class="libro-logo" src="Imagenes/catalogo/a dormir.svg" alt="">
+            <div class="libro-info">
+              <div class="libro-titulo">¡A dormir! El bosque
+                <span class="libro-num-titulo">5</span>
+              </div>
+              <div class="libro-descripcion">
+                Comparte con el bebé un momento lleno de ternura antes de ir a dormir.
+                Dales las buenas noches y cierra los ojos de las mariposas, las
+                mariquitas, los caracoles y los pajaritos. Gracias a un sencillo
+                mecanismo, el mismo bebé podrá cerrar los ojos de los animales
+                del jardín, preparándose para cerrar los suyos al final.
+
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-6 columnas-libros">
+            <div class="libro-item">
+              <a href="" class="libro-link"></a>
+              <img class="libro-logo" src="Imagenes/catalogo/donde esta.svg" alt="">
+              <div class="libro-info">
+                <div class="libro-titulo">¿Dónde está Papá Noel?
+                  <span class="libro-num-titulo">6</span>
+                </div>
+                <div class="libro-descripcion">
+                  Cada título de esta fantástica colección tiene cinco personajes
+                  escondidos detrás de unas coloridas solapas de fieltro, además
+                  de un espejo sorpresa: ¡una combinación perfecta para pequeños
+                  lectores!
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6 columnas-libros">
+              <div class="libro-item">
+                <a href="" class="libro-link"></a>
+                <img class="libro-logo" src="Imagenes/catalogo/osito.svg" alt="">
+                <div class="libro-info">
+                  <div class="libro-titulo">Osito Tito. ¡Vamos al zoo!
+                    <span class="libro-num-titulo">10</span>
+                  </div>
+                  <div class="libro-descripcion">
+                    En el zoo hay mucho que hacer. ¡Ayuda a Osito Tito a cuidar de los leones,
+                    a cepillar el cocodrilo y dar de comer a los pingüinos en este divertidísimo
+                    libro con mecanismos para estirar!
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-md-6 columnas-libros">
+                <div class="libro-item">
+                  <a href="" class="libro-link"></a>
+                  <img class="libro-logo" src="Imagenes/catalogo/perrito.svg" alt="">
+                  <div class="libro-info">
+                    <div class="libro-titulo">Qué fácil es colorear. Perro
+                      <span class="libro-num-titulo">12</span>
+                    </div>
+                    <div class="libro-descripcion">
+                      Libros de colorear, con más de 30 adhesivos reutilizables.
+                      Dibujos sencillos y divertidos, con gruesos contornos
+                      para que colorear sin salirse sea sencillo. Hay un
+                      adhesivo a todo color disponible para cada página
+                      que servirá de guía de color a los niños. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+    </div>            
+  </div>
+
+  <!--  Infantil/Textos escolares-->
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="row subtitulo"><h2>3. Textos escolares</h2></div>
+    <div class="row">
+
+    <div class="col col-md-6 columnas-libros">
+      <div class="libro-item">
+        <a href="" class="libro-link"></a>
+        <img class="libro-logo" src="Imagenes/catalogo/inicial 2.svg" alt="">
+        <div class="libro-info">
+          <div class="libro-titulo"> Libro inicial 2 años
+            <span class="libro-num-titulo">30</span>
+          </div>
+          
+          <div class="libro-descripcion">
+            Este libro es parte de la colección somo exploradores
+
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-6 columnas-libros">
+        <div class="libro-item">
+          <a href="" class="libro-link"></a>
+          <img class="libro-logo" src="Imagenes/catalogo/inicial 3.svg" alt="">
+          <div class="libro-info">
+            <div class="libro-titulo">Libro inicial 3 años
+              <span class="libro-num-titulo">10</span>
+            </div>
+            <div class="libro-descripcion">
+              Este libro es parte de la colección somos exploradores
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-md-6 columnas-libros">
+          <div class="libro-item">
+            <a href="" class="libro-link"></a>
+            <img class="libro-logo" src="Imagenes/catalogo/inicial 4.svg" alt="">
+            <div class="libro-info">
+              <div class="libro-titulo">Libro inicial 4 años
+                <span class="libro-num-titulo">5</span>
+              </div>
+              <div class="libro-descripcion">
+                Este libro es parte de la colección somos exploradores
+
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-6 columnas-libros">
+            <div class="libro-item">
+              <a href="" class="libro-link"></a>
+              <img class="libro-logo" src="Imagenes/catalogo/inicial 5.svg" alt="">
+              <div class="libro-info">
+                <div class="libro-titulo">Libro inicial 5 años
+                  <span class="libro-num-titulo">6</span>
+                </div>
+                <div class="libro-descripcion">
+                  Libro inicial 5 años
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6 columnas-libros">
+              <div class="libro-item">
+                <a href="" class="libro-link"></a>
+                <img class="libro-logo" src="Imagenes/catalogo/biologia.svg" alt="">
+                <div class="libro-info">
+                  <div class="libro-titulo">Texto escolar de biología Crecemos juntos
+                    <span class="libro-num-titulo">10</span>
+                  </div>
+                  <div class="libro-descripcion">
+                    Texto escolar del nivel secundaria de la editorial Santillana.
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-md-6 columnas-libros">
+                <div class="libro-item">
+                  <a href="" class="libro-link"></a>
+                  <img class="libro-logo" src="Imagenes/catalogo/quimica.svg" alt="">
+                  <div class="libro-info">
+                    <div class="libro-titulo">Texto escolar de química Crecemos juntos
+                      <span class="libro-num-titulo">12</span>
+                    </div>
+                    <div class="libro-descripcion">
+                      Texto escolar del nivel secundaria de la editorial Santillana.
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+    </div>            
+  </div>
+</main>
+
+
 
 
 

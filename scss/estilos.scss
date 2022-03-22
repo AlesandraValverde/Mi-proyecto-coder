@@ -14,11 +14,13 @@
 @import"pages/contactos";
 
 
-
+.body{
+    background-color: #faf9fb;
+}
 
 /* Footer*/
 footer{
-    background-color: #0ED4B3;
+    background-color: $verde;
     color: $blanco;
     font-family: $roboto;
     

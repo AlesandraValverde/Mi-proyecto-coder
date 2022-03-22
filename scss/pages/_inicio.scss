@@ -4,10 +4,7 @@ main{
     padding: 0;
     border:0;
 }
-.container:nth-child(3){
-    @include espacios;
 
-}
 .container:nth-child(4){
     @include espacios;
 
