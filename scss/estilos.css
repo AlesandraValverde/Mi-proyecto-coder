@@ -294,6 +294,11 @@ body {
   font-size: 14px;
 }
 
+.lima {
+  width: 30px;
+  height: 50px;
+}
+
 .body {
   background-color: #faf9fb;
 }

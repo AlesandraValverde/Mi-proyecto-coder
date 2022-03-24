@@ -314,25 +314,31 @@ body {
   font-size: 14px;
 }
 
-/* line 17, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 1, ../../../../CODER/comision/CLASE_0_1/scss/pages/_tiendas.scss */
+.tienda-contenido {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* line 18, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 .body {
   background-color: #faf9fb;
 }
 
 /* Footer*/
-/* line 22, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 23, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 footer {
   background-color: #0ED4B3;
   color: white;
   font-family: "roboto";
 }
 
-/* line 30, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 31, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 .container .row {
   font-size: 10px;
 }
 
-/* line 37, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
+/* line 38, ../../../../CODER/comision/CLASE_0_1/scss/estilos.scss */
 .cuenta a {
   color: white;
 }
