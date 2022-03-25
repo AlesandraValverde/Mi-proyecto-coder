@@ -5,6 +5,28 @@
 /* tamaño*/
 /* Base*/
 /* layout*/
+header {
+  font-family: "calibri";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu-nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.nav-link {
+  color: white;
+}
+
 /* encabezado(logo, buscador e iconos*/
 .container-fluid:nth-child(2) {
   background-color: #0ED4B3;
@@ -25,6 +47,20 @@
 
 .container-fluid:nth-child(1) div .btn {
   background: #ffff;
+}
+
+footer {
+  background-color: #0ED4B3;
+  color: white;
+  font-family: "roboto";
+}
+
+.iconos-redes {
+  justify-items: center !important;
+}
+
+.iconos-redes {
+  width: 276px;
 }
 
 /* pages*/
@@ -72,11 +108,20 @@ h1 {
   width: 500px;
 }
 
+.btn {
+  margin-bottom: 20px;
+}
+
 /* main 1*/
 main {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+.banner {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .container:nth-child(4) {
@@ -294,16 +339,205 @@ body {
   font-size: 14px;
 }
 
-.lima-distritos {
-  padding-right: 20px;
-  padding-left: 20px;
+.contenedor-img {
+  width: 600px;
+  height: 500px;
 }
 
-.card-image {
+.formulario {
+  width: 500px;
+}
+
+.formulario-titulo {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#input-nombre {
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+#input-email {
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+#input-telefono {
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+#input-asunto {
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+#input-comentario {
+  width: 500px;
+  height: 120px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+.boton-enviar {
+  width: 120px;
+  height: 50px;
+  margin-left: 200px;
+  border-style: none;
+  background-color: #7A0ED4;
+  border-radius: 5px;
+}
+
+.boton-texto {
+  color: white;
+  margin: 0px;
+}
+
+.subtitulo-tiendas {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 210px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.lima {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+}
+
+.provincias {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 600px;
+}
+
+.tiendas-distritos {
+  width: 300px;
+  height: 400px;
+}
+
+.tiendas-contenido {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 450px;
+  border-radius: 10px;
+  border-style: none;
+  -webkit-box-shadow: 8px 10px 10px 1px rgba(68, 68, 68, 0.5);
+          box-shadow: 8px 10px 10px 1px rgba(68, 68, 68, 0.5);
+}
+
+.card__image {
   float: none;
   margin: 8px 14px 0 0;
-  max-width: 130px;
-  max-height: 150px;
+  max-width: 200px;
+  max-height: 250px;
+}
+
+.card__title {
+  padding-top: 10px;
+}
+
+.btn {
+  background-color: #0ED4B3;
+}
+
+.vermapa {
+  color: aliceblue;
+  padding: 0px;
+  margin: 0px;
+}
+
+.iniciarsesion_form {
+  height: 380px;
+}
+
+.formulario-sesion {
+  width: 660px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  background-color: white;
+}
+
+.contenerdor-iniciarsesion {
+  justify-items: center;
+  margin-left: 70px;
+}
+
+.formulario-titulosesion {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#input-nombreusuario {
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+#input-contraseña {
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #eeedee63;
+  border-style: groove;
+}
+
+.boton-iniciarsesion {
+  width: 120px;
+  height: 50px;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-style: none;
+  background-color: #7A0ED4;
+  border-radius: 5px;
+}
+
+.boton-textosesion {
+  color: white;
+  margin: 0px;
+}
+
+.custom-radio-checkbox {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-family: arial;
+}
+
+.checkbox {
+  width: 10px;
 }
 
 .body {
@@ -311,12 +545,6 @@ body {
 }
 
 /* Footer*/
-footer {
-  background-color: #0ED4B3;
-  color: white;
-  font-family: "roboto";
-}
-
 .container .row {
   font-size: 10px;
 }
