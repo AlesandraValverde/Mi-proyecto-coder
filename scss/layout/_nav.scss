@@ -1,4 +1,18 @@
-
+header{
+    font-family:$calibri;
+    font-size: $dieciocho;
+    font-weight: 700;
+}
+.menu-nav{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.nav-link{
+    color: $blanco;
+}
 /* encabezado(logo, buscador e iconos*/
 .container-fluid:nth-child(2){
     background-color:$verde;

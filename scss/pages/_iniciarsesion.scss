@@ -1,0 +1,61 @@
+.iniciarsesion_form{
+    height: 380px;
+}
+.formulario-sesion{
+    width: 660px;
+    border-radius: 3px;
+    border-color: $gris2;
+    background-color: $blanco;
+    
+}
+.contenerdor-iniciarsesion{
+    justify-items: center;
+    margin-left: 70px;
+}
+.formulario-titulosesion{
+    text-align: center;
+    padding-bottom: 25px;
+}
+#input-nombreusuario{
+    width: 500px;
+    height: 50px;
+    border-radius: 3px;
+    border-color: $gris2;
+    border-style:groove;
+    
+}
+#input-contraseña{
+    
+    width: 500px;
+    height: 50px;
+    border-radius: 3px;
+    border-color: $gris2;
+    border-style:groove;
+}
+
+.boton-iniciarsesion{
+    width: 120px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-style: none;
+    background-color:$lila ;
+    border-radius: 5px;
+
+    
+}
+.boton-textosesion {
+    color: $blanco;
+    margin: 0px;
+}
+
+.custom-radio-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.checkbox{
+    width: 10px;
+}

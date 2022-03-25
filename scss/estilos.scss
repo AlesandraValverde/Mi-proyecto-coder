@@ -13,6 +13,7 @@
 @import"pages/categorias";
 @import"pages/contactos";
 @import"pages/tiendas";
+@import"pages/iniciarsesion";
 
 
 .body{
@@ -20,12 +21,7 @@
 }
 
 /* Footer*/
-footer{
-    background-color: $verde;
-    color: $blanco;
-    font-family: $roboto;
-    
-}
+
 
 .container{
     .row{

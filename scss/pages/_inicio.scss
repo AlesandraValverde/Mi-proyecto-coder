@@ -4,6 +4,10 @@ main{
     padding: 0;
     border:0;
 }
+.banner{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .container:nth-child(4){
     @include espacios;
@@ -112,6 +116,9 @@ header{
     top:0px;
     z-index: 20;
     box-shadow: 5px 0px 15px;
+    
+
+    
 }
 
 

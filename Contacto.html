@@ -15,32 +15,8 @@
 </head>
 <body>
   <header>
-    <!-- nav1 -->
-   <!-- Primer nav  
-  <div class="container-fluid">
-    <div class="col ">
-        <ul class="nav">
-          <li class="nav-item">
-          <a class="nav-link " href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link active" href="Nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="categorias.html">Categorias</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="Contacto.html">Contactos</a>
-          </li>
-        </ul>
-    </div>
-  </div>--> 
-    
-
     <div class="container-fluid">  
-        
       <div class="row align-items-center">
-
         <div class="col-md-2">
           <nav class="navbar navbar-light justify-content-center ">
           <a class="navbar-brand" href="index.html">
@@ -48,62 +24,50 @@
           </a>
           </nav>
         </div>
-      
-        <div class="col-md-6 ">
-            <form class="d-flex ">
-            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="search">
-            <button class="btn btn-outline-secondary" type="submit">buscar</button>
-            </form>
-        </div>
-
-        <div class="col-md-4 ">
-          <ul class="nav justify-content-end contenedor-icono">
-          <li class="nav-item">
-          <a class="nav-link" href="Iniciarsesion.html"><i class="bi bi-person-fill"></i></a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="Tiendas.html"><i class="bi bi-geo-alt-fill"></i></a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="Carrito.html"><i class="bi bi-cart-fill"></i></a>
-          </li>
+        <div class="col menu-nav">
+          <ul class="nav justify-content-center menu-nav" >
+            <li class="nav-item">
+              <a class="nav-link" href="#">INFANTIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">JUVENIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FICCIÓN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NO FICCIÓN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PLAN LECTOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MÁS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRE-VENTA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">OFERTAS</a>
+            </li>
           </ul>
         </div>
-
+        <div class="col-md-2 ">
+          <ul class="nav justify-content-end contenedor-icono">
+            <li class="nav-item">
+              <a class="nav-link" href="Iniciarsesion.html"><i class="bi bi-person-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Tiendas.html"><i class="bi bi-geo-alt-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Carrito.html"><i class="bi bi-cart-fill"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    
-    <div class="container-fluid">
-      <ul class="nav justify-content-center" >
-       <li class="nav-item">
-         <a class="nav-link" href="#">INFANTIL</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">JUVENIL</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">FICCIÓN</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">NO FICCIÓN</a>
-       </li>
-       <li class="nav-item">
-           <a class="nav-link" href="#">PLAN LECTOR</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#">MÁS</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#">PRE-VENTA</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link " href="#">OFERTAS</a>
-         </li>
-         
-     </ul>
-       </div>
-    
-</header>
+  </header>
 
  <!-- Inicio de cuerpo -->
  <img src="contactenos.svg" alt=""> 
@@ -119,27 +83,50 @@
 
 <!----------------------------- Inicio de formulario ----------------------------------------------->
 <main class="container">
-  <div class="col-11 col-sm-8 col-md-6-lg-6 col-xl-5 ">
-    <form class="formFlex" action="">
+  <div class=" row contact_form">
 
-        <div class="imputform">
-            <label class="labelText" for="nombre">Nombre</label>
-            <input type="text" name="nombre" class="labelImput" id="">
-        </div>
+    <div class="col-6 contenedor-img">
+      <img class="img-contacto" src="imagenes/imgmap.svg">
+    </div> 
 
-        <div class="imputform">
-            <label class="labelText" for="apellido">Apellido</label>
-            <input type="text" name="apellido" class="labelImput" id="">
-        </div>
+    <div class="formulario col-6">      
+      <h2 class="formulario-titulo">Formulario de contacto</h2>
+        
+          <form  action="submeter-formulario.php" method="post">       
+            <p>
+              
+              <input id="input-nombre"type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre*">
+            </p>
+              
+            <p>
+              
+                <input id="input-email" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Email*">
+                </p>
+            
+            <p>
+              
+              <input id="input-telefono" type="tel" name="introducir_telefono" id="telefono" placeholder="Teléfono*">
+            </p>    
+              
+            <p>
+              
+              <input id="input-asunto" type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Asunto*">
+            </p>    
+              
+            <p>
+                                  
+            <textarea  id="input-comentario" name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+            </p>                    
+              
+            <button class="boton-enviar"type="submit" name="enviar_formulario" id="enviar"><p class="boton-texto">Enviar</p></button>
 
-        <div class="imputform">
-            <label class="labelText" for="Mail">E-mail</label>
-            <input type="text" name="Mail" class="labelImput">
-        </div>
-
-        <div class="imputform">
-            <p class="textoForm">¿Cual es su país de residencia?</p>
-        </div>
+                   
+            
+          </form>
+          
+    </div> 
+    
+  </div>
 
 </main>
   <!--  fin de formulario -->
