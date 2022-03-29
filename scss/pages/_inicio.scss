@@ -109,8 +109,6 @@ h1{
 }
 /*FIN Iconos*/
 
-
-
 header{
     position: sticky;
     top:0px;
@@ -120,6 +118,397 @@ header{
 
     
 }
+//...........................Media queris.................................................................//
+
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+
+        overflow-x:hidden;
+        .container:nth-child(2){   /*   Bienvenidos*/
+            padding-left:0px;
+            padding-right: 0px;
+            
+            h1{
+                font-size: 4em;
+            }
+        }
+        .container{                /*   Coleccion inicial corefo*/
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            .fila{
+                width: 100%;
+                
+                
+                .columna{
+                    width: 100%;
+                    float: left;
+               
+                .columna__imagen{
+                    width: 100%;
+                    float: left;
+                }
+                    h4{
+                        font-size: 1em;
+                    }
+                    p{
+                        font-size: $doce;
+                    }
+                    .lista{
+                        font-size: $diez;
+                    }
+                    .btn{
+                        width: 60px;
+                        height: 25px;
+                        font-size: $ocho;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+        .container:nth-child(4){ 
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .container:nth-child(5){ 
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        }
+        .container-fluid:nth-child(6){
+            .subtituloinicio{
+                max-width: 767px;
+                margin-right: 0px;
+                margin-left: 0px;
+                
+
+            }
+            h2{
+                font-size: 3em;
+            }
+            .principaleseditoriales{
+                margin-left: 0px;
+                margin-right: 0px;
+                img{
+                    padding: 0px;
+                }
+            }
+        }
+        
+    }
+}
+
+/*media para movil*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+        overflow-x:hidden;
+        .container:nth-child(2){   /*   Bienvenidos*/
+            padding-left:0px;
+            padding-right: 0px;
+            
+            h1{
+                font-size: 4em;
+            }
+        }
+        .container{                /*   Coleccion inicial corefo*/
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            .fila{
+                width: 100%;
+                .columna{
+                    width: 100%;
+                    
+                .columna__ilustracion{
+                    width: 100%;
+                    
+                        
+                        
+                    }
+                    .columna__imagen{
+                        width: 100%;
+                        float: left;
+                    }
+                    h4{
+                        font-size: 2em;
+                    }
+                    p{
+                        font-size: 2em;
+                    }
+                    
+                    .lista{
+                        font-size: $catorce;
+                    }
+                    .btn{
+                        width: 50% ;
+                        height:5%;
+                        font-size: $doce;
+                        margin: 0px;
+                        
+                    }
+                }
+            }
+        }
+        .container:nth-child(4){      /* Coleccion primaria corefo*/
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .container:nth-child(5){ 
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .container-fluid:nth-child(6){
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            .subtituloinicio{
+                width: 80%;
+                padding: 0px;
+                margin: 0px;
+                
+            
+             
+            }
+            h2{
+                font-size: 2em;
+                text-align: center;
+            }
+            .principaleseditoriales{
+                margin-left: 0px;
+                margin-right: 0px;
+                img{
+                    padding: 0px;
+                }
+            }
+        }
+        
+    }
+}
+/* movil 2 */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+        overflow-x:hidden;
+        .container:nth-child(2){   /*   Bienvenidos*/
+            padding-left:0px;
+            padding-right: 0px;
+            
+            h1{
+                font-size: 4em;
+            }
+        }
+        .container{                /*   Coleccion inicial corefo*/
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            .fila{
+                width: 100%;
+                .columna{
+                    width: 100%;
+                    
+                .columna__ilustracion{
+                    width: 100%;
+                    
+                        
+                        
+                    }
+                    .columna__imagen{
+                        width: 100%;
+                        float: left;
+                    }
+                    h4{
+                        font-size: 2em;
+                    }
+                    p{
+                        font-size: 2em;
+                    }
+                    
+                    .lista{
+                        font-size: $catorce;
+                    }
+                    .btn{
+                        width: 50% ;
+                        height:5%;
+                        font-size: $doce;
+                        margin: 0px;
+                        
+                    }
+                }
+            }
+        }
+        .container:nth-child(4){      /* Coleccion primaria corefo*/
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .container:nth-child(5){ 
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .container-fluid:nth-child(6){
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            .subtituloinicio{
+                width: 80%;
+                padding: 0px;
+                margin: 0px;
+                
+            
+             
+            }
+            h2{
+                font-size: 2em;
+                text-align: center;
+            }
+            .principaleseditoriales{
+                margin-left: 0px;
+                margin-right: 0px;
+                img{
+                    padding: 0px;
+                }
+            }
+        }
+        
+    }
+}
 
 
+    
 
+
+/* Desktop*/
+@media only screen and (min-width: 769px) and (max-width: 1600px){
+    body{
+        
+        .container:nth-child(2){   /*   Bienvenidos*/
+                }
+        .container{                /*   Coleccion inicial corefo*/
+            margin-bottom: 80px;
+            padding: 0px;
+            width: 100%;
+            .fila{
+                width: 100%;
+                .columna{
+                    width: 100%;
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    .columna__ilustracion{
+                        width: 100%;
+                        padding-left: 0px;
+                        margin-left:0px;
+                        margin-right: 0px;
+                        
+                    }
+                    .columna__imagen{
+                        width: 100%;
+                        padding-left: 0px;
+                        margin-left:0px;
+                        margin-right: 0px;
+                    }
+                    h4{
+                        
+                    }
+                    p{
+                        
+                    }
+                    .lista{
+                        
+                    }
+                    .btn{
+                        
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+        .container:nth-child(4){                                /*Coleccion primaria corefo*/
+            margin-bottom: 80px;
+            margin-top: 0px;
+            padding: 0px;
+            height: 750px;
+            
+            
+        }
+        .container:nth-child(5){                        /*Coleccion secundaria corefo*/                
+            margin-bottom: 80px;
+            margin-top: 0px;
+            padding: 0px;
+            height: 750px;
+        }
+        .container-fluid:nth-child(6){                 /*Peincipales editoriales y ola de editoriales*/    
+            .subtituloinicio{
+                
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+            h2{
+                
+            }
+            .principaleseditoriales{
+                margin-left: 0px;
+                margin-right: 0px;
+                img{
+                    padding: 0px;
+                }
+            }
+        }
+        
+    }
+}

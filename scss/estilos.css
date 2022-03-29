@@ -239,6 +239,360 @@ header {
           box-shadow: 5px 0px 15px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header .menu-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body header .menu-icons .contenedor-icono {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body .container:nth-child(2) h1 {
+    font-size: 4em;
+  }
+  body .container {
+    /*   Coleccion inicial corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container .fila {
+    width: 100%;
+  }
+  body .container .fila .columna {
+    width: 100%;
+    float: left;
+  }
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    float: left;
+  }
+  body .container .fila .columna h4 {
+    font-size: 1em;
+  }
+  body .container .fila .columna p {
+    font-size: 12px;
+  }
+  body .container .fila .columna .lista {
+    font-size: 10px;
+  }
+  body .container .fila .columna .btn {
+    width: 60px;
+    height: 25px;
+    font-size: 8px;
+    margin-bottom: 0px;
+  }
+  body .container:nth-child(4) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container:nth-child(5) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    max-width: 767px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  body .container-fluid:nth-child(6) h2 {
+    font-size: 3em;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
+/*media para movil*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header .menu-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body header .menu-icons .contenedor-icono {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body .container:nth-child(2) h1 {
+    font-size: 4em;
+  }
+  body .container {
+    /*   Coleccion inicial corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container .fila {
+    width: 100%;
+  }
+  body .container .fila .columna {
+    width: 100%;
+  }
+  body .container .fila .columna .columna__ilustracion {
+    width: 100%;
+  }
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    float: left;
+  }
+  body .container .fila .columna h4 {
+    font-size: 2em;
+  }
+  body .container .fila .columna p {
+    font-size: 2em;
+  }
+  body .container .fila .columna .lista {
+    font-size: 14px;
+  }
+  body .container .fila .columna .btn {
+    width: 50%;
+    height: 5%;
+    font-size: 12px;
+    margin: 0px;
+  }
+  body .container:nth-child(4) {
+    /* Coleccion primaria corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body .container:nth-child(5) {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body .container-fluid:nth-child(6) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+  }
+  body .container-fluid:nth-child(6) h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
+/* movil 2 */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header .menu-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body header .menu-icons .contenedor-icono {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body .container:nth-child(2) h1 {
+    font-size: 4em;
+  }
+  body .container {
+    /*   Coleccion inicial corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container .fila {
+    width: 100%;
+  }
+  body .container .fila .columna {
+    width: 100%;
+  }
+  body .container .fila .columna .columna__ilustracion {
+    width: 100%;
+  }
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    float: left;
+  }
+  body .container .fila .columna h4 {
+    font-size: 2em;
+  }
+  body .container .fila .columna p {
+    font-size: 2em;
+  }
+  body .container .fila .columna .lista {
+    font-size: 14px;
+  }
+  body .container .fila .columna .btn {
+    width: 50%;
+    height: 5%;
+    font-size: 12px;
+    margin: 0px;
+  }
+  body .container:nth-child(4) {
+    /* Coleccion primaria corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body .container:nth-child(5) {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body .container-fluid:nth-child(6) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+  }
+  body .container-fluid:nth-child(6) h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
+/* Desktop*/
+@media only screen and (min-width: 769px) and (max-width: 1600px) {
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+  }
+  body .container {
+    /*   Coleccion inicial corefo*/
+    margin-bottom: 80px;
+    padding: 0px;
+    width: 100%;
+  }
+  body .container .fila {
+    width: 100%;
+  }
+  body .container .fila .columna {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  body .container .fila .columna .columna__ilustracion {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container .fila .columna .btn {
+    margin-bottom: 0px;
+  }
+  body .container:nth-child(4) {
+    /*Coleccion primaria corefo*/
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 750px;
+  }
+  body .container:nth-child(5) {
+    /*Coleccion secundaria corefo*/
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 750px;
+  }
+  body .container-fluid:nth-child(6) {
+    /*Peincipales editoriales y ola de editoriales*/
+  }
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
 body {
   background-color: #faf9fb;
 }

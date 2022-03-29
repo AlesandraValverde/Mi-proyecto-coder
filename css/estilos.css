@@ -244,12 +244,428 @@ h1 {
 }
 
 /*FIN Iconos*/
-/* line 114, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+/* line 112, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
 header {
   position: sticky;
   top: 0px;
   z-index: 20;
   box-shadow: 5px 0px 15px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+  /* line 124, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body {
+    overflow-x: hidden;
+  }
+  /* line 126, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body header .menu-icons {
+    justify-content: center;
+  }
+  /* line 128, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body header .menu-icons .contenedor-icono {
+    justify-content: center !important;
+  }
+  /* line 135, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 139, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) h1 {
+    font-size: 4em;
+  }
+  /* line 143, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container {
+    /*   Coleccion inicial corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 148, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila {
+    width: 100%;
+  }
+  /* line 152, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna {
+    width: 100%;
+    float: left;
+  }
+  /* line 156, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    float: left;
+  }
+  /* line 160, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna h4 {
+    font-size: 1em;
+  }
+  /* line 163, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna p {
+    font-size: 12px;
+  }
+  /* line 166, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .lista {
+    font-size: 10px;
+  }
+  /* line 169, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .btn {
+    width: 60px;
+    height: 25px;
+    font-size: 8px;
+    margin-bottom: 0px;
+  }
+  /* line 178, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(4) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 184, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(5) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 192, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    max-width: 767px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  /* line 199, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) h2 {
+    font-size: 3em;
+  }
+  /* line 202, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 205, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
+/*media para movil*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* line 217, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body {
+    overflow-x: hidden;
+  }
+  /* line 219, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body header .menu-icons {
+    justify-content: center;
+  }
+  /* line 221, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body header .menu-icons .contenedor-icono {
+    justify-content: center !important;
+  }
+  /* line 227, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 231, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) h1 {
+    font-size: 4em;
+  }
+  /* line 235, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container {
+    /*   Coleccion inicial corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 240, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila {
+    width: 100%;
+  }
+  /* line 242, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna {
+    width: 100%;
+  }
+  /* line 245, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__ilustracion {
+    width: 100%;
+  }
+  /* line 251, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    float: left;
+  }
+  /* line 255, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna h4 {
+    font-size: 2em;
+  }
+  /* line 258, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna p {
+    font-size: 2em;
+  }
+  /* line 262, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .lista {
+    font-size: 14px;
+  }
+  /* line 265, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .btn {
+    width: 50%;
+    height: 5%;
+    font-size: 12px;
+    margin: 0px;
+  }
+  /* line 275, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(4) {
+    /* Coleccion primaria corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 285, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(5) {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 295, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 300, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+  }
+  /* line 308, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  /* line 312, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 315, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
+/* movil 2 */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* line 325, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body {
+    overflow-x: hidden;
+  }
+  /* line 327, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body header .menu-icons {
+    justify-content: center;
+  }
+  /* line 329, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body header .menu-icons .contenedor-icono {
+    justify-content: center !important;
+  }
+  /* line 335, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 339, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) h1 {
+    font-size: 4em;
+  }
+  /* line 343, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container {
+    /*   Coleccion inicial corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 348, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila {
+    width: 100%;
+  }
+  /* line 350, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna {
+    width: 100%;
+  }
+  /* line 353, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__ilustracion {
+    width: 100%;
+  }
+  /* line 359, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    float: left;
+  }
+  /* line 363, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna h4 {
+    font-size: 2em;
+  }
+  /* line 366, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna p {
+    font-size: 2em;
+  }
+  /* line 370, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .lista {
+    font-size: 14px;
+  }
+  /* line 373, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .btn {
+    width: 50%;
+    height: 5%;
+    font-size: 12px;
+    margin: 0px;
+  }
+  /* line 383, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(4) {
+    /* Coleccion primaria corefo*/
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 393, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(5) {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 403, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 408, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+  }
+  /* line 416, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  /* line 420, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 423, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
+}
+
+/* Desktop*/
+@media only screen and (min-width: 769px) and (max-width: 1600px) {
+  /* line 440, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(2) {
+    /*   Bienvenidos*/
+  }
+  /* line 442, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container {
+    /*   Coleccion inicial corefo*/
+    margin-bottom: 80px;
+    padding: 0px;
+    width: 100%;
+  }
+  /* line 446, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila {
+    width: 100%;
+  }
+  /* line 448, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  /* line 452, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__ilustracion {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 459, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .columna__imagen {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 474, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container .fila .columna .btn {
+    margin-bottom: 0px;
+  }
+  /* line 481, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(4) {
+    /*Coleccion primaria corefo*/
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 750px;
+  }
+  /* line 489, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container:nth-child(5) {
+    /*Coleccion secundaria corefo*/
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 750px;
+  }
+  /* line 495, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) {
+    /*Peincipales editoriales y ola de editoriales*/
+  }
+  /* line 496, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .subtituloinicio {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  /* line 504, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 507, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  body .container-fluid:nth-child(6) .principaleseditoriales img {
+    padding: 0px;
+  }
 }
 
 /* line 1, ../../../../CODER/comision/CLASE_0_1/scss/pages/_categorias.scss */
