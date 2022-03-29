@@ -593,46 +593,42 @@ header {
 
 /* Desktop*/
 @media only screen and (min-width: 769px) and (max-width: 1600px) {
-  /* line 440, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
-  body .container:nth-child(2) {
-    /*   Bienvenidos*/
-  }
-  /* line 442, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 441, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container {
     /*   Coleccion inicial corefo*/
     margin-bottom: 80px;
     padding: 0px;
     width: 100%;
   }
-  /* line 446, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 445, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container .fila {
     width: 100%;
   }
-  /* line 448, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 447, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container .fila .columna {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
   }
-  /* line 452, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 451, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container .fila .columna .columna__ilustracion {
     width: 100%;
     padding-left: 0px;
     margin-left: 0px;
     margin-right: 0px;
   }
-  /* line 459, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 458, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container .fila .columna .columna__imagen {
     width: 100%;
     padding-left: 0px;
     margin-left: 0px;
     margin-right: 0px;
   }
-  /* line 474, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 467, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container .fila .columna .btn {
     margin-bottom: 0px;
   }
-  /* line 481, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 474, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container:nth-child(4) {
     /*Coleccion primaria corefo*/
     margin-bottom: 80px;
@@ -640,7 +636,7 @@ header {
     padding: 0px;
     height: 750px;
   }
-  /* line 489, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 482, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container:nth-child(5) {
     /*Coleccion secundaria corefo*/
     margin-bottom: 80px;
@@ -648,21 +644,21 @@ header {
     padding: 0px;
     height: 750px;
   }
-  /* line 495, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 488, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container-fluid:nth-child(6) {
     /*Peincipales editoriales y ola de editoriales*/
   }
-  /* line 496, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 489, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container-fluid:nth-child(6) .subtituloinicio {
     margin-right: 0px;
     margin-left: 0px;
   }
-  /* line 504, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 495, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container-fluid:nth-child(6) .principaleseditoriales {
     margin-left: 0px;
     margin-right: 0px;
   }
-  /* line 507, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
+  /* line 498, ../../../../CODER/comision/CLASE_0_1/scss/pages/_inicio.scss */
   body .container-fluid:nth-child(6) .principaleseditoriales img {
     padding: 0px;
   }

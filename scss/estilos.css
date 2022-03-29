@@ -531,9 +531,6 @@ header {
 
 /* Desktop*/
 @media only screen and (min-width: 769px) and (max-width: 1600px) {
-  body .container:nth-child(2) {
-    /*   Bienvenidos*/
-  }
   body .container {
     /*   Coleccion inicial corefo*/
     margin-bottom: 80px;
