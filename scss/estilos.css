@@ -57,9 +57,6 @@ footer {
 
 .iconos-redes {
   justify-items: center !important;
-}
-
-.iconos-redes {
   width: 276px;
 }
 
@@ -219,6 +216,11 @@ h1 {
   padding-bottom: 30px;
   padding-top: 30px;
   font-weight: 700;
+}
+
+.talleres {
+  background-image: url(Fondotalleres.svg);
+  position: absolute;
 }
 
 /*Iconos*/
