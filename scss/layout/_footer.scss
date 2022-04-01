@@ -1,7 +1,14 @@
 footer{
     background-color: $verde;
     color: $blanco;
-    font-family: $roboto;
+    
+    .footerprin{
+        
+        .footer-central{
+            font-family: $calibri;
+        font-size: $doce;
+        }
+    }
     
     
 }

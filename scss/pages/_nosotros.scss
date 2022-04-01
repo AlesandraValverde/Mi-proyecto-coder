@@ -1,53 +1,98 @@
 /*  Modificar a mix+ */
-.container{
+main{
     
-    .row{
-        div{
-            h2{
-                font-family: 'calibri';
-                font-style: bold;
-                color:#7A0ED4;
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+.nosotros{
+    height: auto;
+    .nosotros-fila1{
+        height: auto;
+        margin: 0px;
+        .quees-texto{
+
+            font-family: 'calibri';
+            font-style: bold;
+            color:$lila;
+            font-weight: 1000;
+            .quees-titulo{
+                font-size: $calibri;
+                font-size: 5em;
+                font-weight: 700;
+                padding-left:100px ;
+                color: $verde;;
+            }
+            .quees-subtitulo{
+                color:$gris;
+                font-size: $calibri;
+                font-size: 25px;
                 
-                font-family: 'calibri';
-                font-weight: 1000;
-            }
-            p{
-                font-size: $veinticuatro;
-                font-family: 'calibri';
-                font-weight: 300;
             }
         }
+        .quees-ilustracion{
+            width: 40%;
+        }
+    }
 
     }
-    .row{
-        div{
-            h2{
-                color: #7A0ED4;
-                font-size: $cuarenta;
+    .nosotros-fila2{
+        height: auto;
+        margin: 0px;
+        .vision-texto{
+
+            font-family: 'calibri';
+            font-style: bold;
+            color:$lila;
+            font-weight: 1000;
+            .vision-titulo{
+                font-size: $calibri;
+                font-size: 5em;
+                font-weight: 700;
+                padding-left:100px ;
+                color: $verde;;
             }
-            p{
-                font-size: $veinte;
+            .vision-subtitulo{
+                color:$gris;
+                font-size: $calibri;
+                font-size: 25px;
+                
             }
         }
-        
-    }
-}
-
-h1{
-    color: #7A0ED4;
-    font-family: 'calibri';
-    font-size: 100px;
-    font-style:bold ;
-    align-content: center;
-    justify-content: center;
-    display: flex;
+        .vision-ilustracion{
+            width: 40%;
+        }
     
-}
-.nosotros-ilustracion{
-    height: 500px;
-    width: 500px;
-}
+            
+    }
+    .nosotros-fila3{
+        height: auto;
+        margin: 0px;
+        .mision-texto{
 
-.btn{
-    margin-bottom: 20px;
-}
+            font-family: 'calibri';
+            font-style: bold;
+            color:$lila;
+            font-weight: 1000;
+            .mision-titulo{
+                font-size: $calibri;
+                font-size: 5em;
+                font-weight: 700;
+                padding-left:100px ;
+                color: $verde;;
+            }
+            .mision-subtitulo{
+                color:$gris;
+                font-size: $calibri;
+                font-size: 25px;
+                
+            }
+        }
+        .mision-ilustracion{
+            width: 40%;
+        }
+    }
+        
+
+
+

@@ -55,10 +55,15 @@ header {
 footer {
   background-color: #0ED4B3;
   color: white;
-  font-family: "roboto";
 }
 
-/* line 8, ../../../../CODER/comision/CLASE_0_1/scss/layout/_footer.scss */
+/* line 7, ../../../../CODER/comision/CLASE_0_1/scss/layout/_footer.scss */
+footer .footerprin .footer-central {
+  font-family: "calibri";
+  font-size: 12px;
+}
+
+/* line 15, ../../../../CODER/comision/CLASE_0_1/scss/layout/_footer.scss */
 .iconos-redes {
   justify-items: center !important;
   width: 276px;
@@ -74,53 +79,121 @@ header {
 
 /* pages*/
 /*  Modificar a mix+ */
-/* line 6, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-.container .row div h2 {
+/* line 2, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 8, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros {
+  height: auto;
+}
+
+/* line 10, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros .nosotros-fila1 {
+  height: auto;
+  margin: 0px;
+}
+
+/* line 13, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros .nosotros-fila1 .quees-texto {
   font-family: 'calibri';
   font-style: bold;
-  color: #7A0ED4;
-  font-family: 'calibri';
+  color: #9A7ACE;
   font-weight: 1000;
 }
 
-/* line 14, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-.container .row div p {
-  font-size: 24px;
+/* line 19, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros .nosotros-fila1 .quees-texto .quees-titulo {
+  font-size: "calibri";
+  font-size: 5em;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #0ED4B3;
+}
+
+/* line 26, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros .nosotros-fila1 .quees-texto .quees-subtitulo {
+  color: #7c7a7a;
+  font-size: "calibri";
+  font-size: 25px;
+}
+
+/* line 33, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros .nosotros-fila1 .quees-ilustracion {
+  width: 40%;
+}
+
+/* line 39, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila2 {
+  height: auto;
+  margin: 0px;
+}
+
+/* line 42, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila2 .vision-texto {
   font-family: 'calibri';
-  font-weight: 300;
-}
-
-/* line 24, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-.container .row div h2 {
-  color: #7A0ED4;
-  font-size: 40px;
-}
-
-/* line 28, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-.container .row div p {
-  font-size: 20px;
-}
-
-/* line 36, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-h1 {
-  color: #7A0ED4;
-  font-family: 'calibri';
-  font-size: 100px;
   font-style: bold;
-  align-content: center;
-  justify-content: center;
-  display: flex;
+  color: #9A7ACE;
+  font-weight: 1000;
 }
 
-/* line 46, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-.nosotros-ilustracion {
-  height: 500px;
-  width: 500px;
+/* line 48, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila2 .vision-texto .vision-titulo {
+  font-size: "calibri";
+  font-size: 5em;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #0ED4B3;
 }
 
-/* line 51, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
-.btn {
-  margin-bottom: 20px;
+/* line 55, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila2 .vision-texto .vision-subtitulo {
+  color: #7c7a7a;
+  font-size: "calibri";
+  font-size: 25px;
+}
+
+/* line 62, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila2 .vision-ilustracion {
+  width: 40%;
+}
+
+/* line 68, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila3 {
+  height: auto;
+  margin: 0px;
+}
+
+/* line 71, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila3 .mision-texto {
+  font-family: 'calibri';
+  font-style: bold;
+  color: #9A7ACE;
+  font-weight: 1000;
+}
+
+/* line 77, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila3 .mision-texto .mision-titulo {
+  font-size: "calibri";
+  font-size: 5em;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #0ED4B3;
+}
+
+/* line 84, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila3 .mision-texto .mision-subtitulo {
+  color: #7c7a7a;
+  font-size: "calibri";
+  font-size: 25px;
+}
+
+/* line 91, ../../../../CODER/comision/CLASE_0_1/scss/pages/_nosotros.scss */
+.nosotros-fila3 .mision-ilustracion {
+  width: 40%;
 }
 
 /* main 1*/

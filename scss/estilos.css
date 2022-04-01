@@ -52,7 +52,11 @@ header {
 footer {
   background-color: #0ED4B3;
   color: white;
-  font-family: "roboto";
+}
+
+footer .footerprin .footer-central {
+  font-family: "calibri";
+  font-size: 12px;
 }
 
 .iconos-redes {
@@ -71,51 +75,104 @@ header {
 
 /* pages*/
 /*  Modificar a mix+ */
-.container .row div h2 {
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.nosotros {
+  height: auto;
+}
+
+.nosotros .nosotros-fila1 {
+  height: auto;
+  margin: 0px;
+}
+
+.nosotros .nosotros-fila1 .quees-texto {
   font-family: 'calibri';
   font-style: bold;
-  color: #7A0ED4;
-  font-family: 'calibri';
+  color: #9A7ACE;
   font-weight: 1000;
 }
 
-.container .row div p {
-  font-size: 24px;
+.nosotros .nosotros-fila1 .quees-texto .quees-titulo {
+  font-size: "calibri";
+  font-size: 5em;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #0ED4B3;
+}
+
+.nosotros .nosotros-fila1 .quees-texto .quees-subtitulo {
+  color: #7c7a7a;
+  font-size: "calibri";
+  font-size: 25px;
+}
+
+.nosotros .nosotros-fila1 .quees-ilustracion {
+  width: 40%;
+}
+
+.nosotros-fila2 {
+  height: auto;
+  margin: 0px;
+}
+
+.nosotros-fila2 .vision-texto {
   font-family: 'calibri';
-  font-weight: 300;
-}
-
-.container .row div h2 {
-  color: #7A0ED4;
-  font-size: 40px;
-}
-
-.container .row div p {
-  font-size: 20px;
-}
-
-h1 {
-  color: #7A0ED4;
-  font-family: 'calibri';
-  font-size: 100px;
   font-style: bold;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  color: #9A7ACE;
+  font-weight: 1000;
 }
 
-.nosotros-ilustracion {
-  height: 500px;
-  width: 500px;
+.nosotros-fila2 .vision-texto .vision-titulo {
+  font-size: "calibri";
+  font-size: 5em;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #0ED4B3;
 }
 
-.btn {
-  margin-bottom: 20px;
+.nosotros-fila2 .vision-texto .vision-subtitulo {
+  color: #7c7a7a;
+  font-size: "calibri";
+  font-size: 25px;
+}
+
+.nosotros-fila2 .vision-ilustracion {
+  width: 40%;
+}
+
+.nosotros-fila3 {
+  height: auto;
+  margin: 0px;
+}
+
+.nosotros-fila3 .mision-texto {
+  font-family: 'calibri';
+  font-style: bold;
+  color: #9A7ACE;
+  font-weight: 1000;
+}
+
+.nosotros-fila3 .mision-texto .mision-titulo {
+  font-size: "calibri";
+  font-size: 5em;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #0ED4B3;
+}
+
+.nosotros-fila3 .mision-texto .mision-subtitulo {
+  color: #7c7a7a;
+  font-size: "calibri";
+  font-size: 25px;
+}
+
+.nosotros-fila3 .mision-ilustracion {
+  width: 40%;
 }
 
 /* main 1*/
