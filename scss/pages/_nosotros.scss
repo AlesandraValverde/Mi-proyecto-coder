@@ -20,8 +20,9 @@ main{
                 font-size: $calibri;
                 font-size: 5em;
                 font-weight: 700;
-                padding-left:100px ;
-                color: $verde;;
+                color: $verde;
+                text-align: center;
+
             }
             .quees-subtitulo{
                 color:$gris;
@@ -31,7 +32,7 @@ main{
             }
         }
         .quees-ilustracion{
-            width: 40%;
+            width: 50%;
         }
     }
 
@@ -49,8 +50,8 @@ main{
                 font-size: $calibri;
                 font-size: 5em;
                 font-weight: 700;
-                padding-left:100px ;
-                color: $verde;;
+                color: $verde;
+                text-align: center;
             }
             .vision-subtitulo{
                 color:$gris;
@@ -60,7 +61,8 @@ main{
             }
         }
         .vision-ilustracion{
-            width: 40%;
+            width: 50%;
+
         }
     
             
@@ -78,8 +80,8 @@ main{
                 font-size: $calibri;
                 font-size: 5em;
                 font-weight: 700;
-                padding-left:100px ;
-                color: $verde;;
+                color: $verde;
+                text-align: center;
             }
             .mision-subtitulo{
                 color:$gris;
@@ -92,7 +94,59 @@ main{
             width: 40%;
         }
     }
-        
+    //--------------------------------Media queris-----------------------------------------------------//
+    @media only screen and (min-width: 0px) and (max-width: 319px){
+        body{
+            header{
+                .menu-icons{
+                    justify-content: center;
+                    .contenedor-icono{
+                        justify-content: center !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+        body{
+            header{
+                .menu-icons{
+                    justify-content: center;
+                    .contenedor-icono{
+                        justify-content: center !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+        body{
+            header{
+                .menu-icons{
+                    justify-content: center;
+                    .contenedor-icono{
+                        justify-content: center !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1600px){
+        body{
+            header{
+                .menu-icons{
+                    justify-content: center;
+                    .contenedor-icono{
+                        justify-content: center !important;
+                    }
+                }
+            }
+        }
+    }
 
 
 

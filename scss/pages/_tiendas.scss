@@ -1,25 +1,36 @@
-.subtitulo-tiendas{
-    justify-content: center;
-    padding-left:210px ;
-    padding-bottom:20px ;
-    padding-top: 60px;
+.Tiendas{
+    height: auto;
+    
+}
+.tiendas-texto{
+    justify-content:center;
+    margin: 20px;
+    width: auto;
+    .tiendas-titulo{
+        padding: 0px;
+        width: auto;
+    }
 
 }
 
 .lima{
     justify-content: center;
-    height: 500px;
+    height: auto;
+    width: auto;
+    margin-bottom: 150px;
     
 }
 .provincias{
     justify-content: center;
-    height: 600px;
+    height:auto;
+    width: auto;
+    margin-bottom: 150px;
 }
 
 
 .tiendas-distritos{
     width: 300px;
-    height: 400px;
+    height: auto;
 }
 
 .tiendas-contenido{

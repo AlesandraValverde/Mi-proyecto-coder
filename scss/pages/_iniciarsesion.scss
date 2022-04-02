@@ -1,5 +1,5 @@
 .iniciarsesion_form{
-    height: 380px;
+    height: auto;
 }
 .formulario-sesion{
     width: 660px;
@@ -58,4 +58,34 @@
 
 .checkbox{
     width: 10px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+        .iniciarsesion{
+            height: auto;
+            margin: 0px;
+            padding: 0px;
+        }
+        #input-nombreusuario{
+            width: auto;
+        }
+        #input-iniciarsesion{
+            width: auto;
+        }
+        #input-contraseña{
+            width: auto;
+        }
+        .boton-iniciarsesion{
+            margin-left: 0px;
+        }
+    }
 }

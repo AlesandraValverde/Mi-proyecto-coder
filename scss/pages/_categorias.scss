@@ -1,6 +1,10 @@
 body{
     background-color: #faf9fb;
 }
+
+.catalogo{
+    height: auto;
+}
 .libro-item{
     background-color: #fff;
     padding: 24px;
@@ -12,8 +16,9 @@ body{
     align-items: flex-start;
 }
 
-.container.page-content{
-    max-width: 1200px;
+.container.pagina-contenido{
+    
+    height: auto;
     padding-top: 60px
 }
 .form-search-wrapper{
@@ -83,6 +88,57 @@ body{
 }
 .libro-descripcion{
   font-size: $catorce ;
+  color:$gris;
 
+}
+//----------------Medias queris----------------
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icons{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1600px){
+    body{
+        header{
+            .menu-icons{
+                justify-content: center;
+                .contenedor-icono{
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
 }
 
